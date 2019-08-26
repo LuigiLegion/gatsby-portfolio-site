@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Portfolio Site`,
+    title: `Hi there, I'm Tal.`,
     author: `Tal Luigi`,
     description: `A starter portfolio site demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://taluigi.netlify.com/`,
     social: {
       twitter: `LuigiLegion`,
     },
