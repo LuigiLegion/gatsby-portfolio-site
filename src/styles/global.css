@@ -1,7 +1,11 @@
 html {
-  background-color: #ddd;
+  background-color: #eee;
+}
+
+body {
+  color: #444;
 }
 
 a.social-media {
-  color: #ddd;
+  color: #eee;
 }
