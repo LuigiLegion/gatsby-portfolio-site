@@ -5,7 +5,9 @@ module.exports = {
     description: `A starter portfolio site demonstrating what Gatsby can do.`,
     siteUrl: `https://taluigi.netlify.com/`,
     social: {
-      twitter: `LuigiLegion`,
+      github: `luigilegion`,
+      linkedin: `talluigi`,
+      twitter: `luigilegion`,
     },
   },
   plugins: [
@@ -63,7 +65,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/code-icon.png`,
       },
     },
     `gatsby-plugin-offline`,
