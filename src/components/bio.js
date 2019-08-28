@@ -35,28 +35,41 @@ const Bio = () => {
   const { author, social } = data.site.siteMetadata
   return (
     <div
+      className="flex-container"
       style={{
-        display: `flex`,
         marginBottom: rhythm(2.5),
       }}
     >
-      <Image
-        fixed={data.avatar.childImageSharp.fixed}
-        alt={author}
-        style={{
-          marginRight: rhythm(1 / 2),
-          marginBottom: 0,
-          minWidth: 50,
-          borderRadius: `100%`,
-        }}
-        imgStyle={{
-          borderRadius: `50%`,
-        }}
-      />
-      <p>
+      <div className="flex-containee">
         I'm a Full Stack Developer based in New York City, building useful
         things using cool technologies.
-        <br />
+      </div>
+      <br />
+      <br />
+      <div className="flex-containee">
+        <Image
+          fixed={data.avatar.childImageSharp.fixed}
+          alt={author}
+          style={{
+            marginRight: rhythm(1 / 2),
+            marginBottom: 0,
+            minWidth: 50,
+            borderRadius: `100%`,
+          }}
+          imgStyle={{
+            borderRadius: `50%`,
+          }}
+        />
+        {/* <Link
+          style={{
+            boxShadow: `none`,
+            textDecoration: `none`,
+            color: `inherit`,
+          }}
+          to={`https://github.com/luigilegion`}
+        >
+          <img src="https://img.icons8.com/ios-glyphs/52/000000/github.png" />
+        </Link> */}
         <a
           className="social-media"
           href={`https://github.com/luigilegion`}
@@ -81,7 +94,7 @@ const Bio = () => {
         >
           <img src="https://img.icons8.com/color/52/000000/twitter.png" />
         </a>
-      </p>
+      </div>
     </div>
   )
 }

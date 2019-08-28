@@ -1,11 +1,30 @@
 html {
   background-color: #eee;
+  text-decoration: none;
 }
 
 body {
   color: #444;
+  text-decoration: none;
+}
+
+img {
+  margin-bottom: 0;
 }
 
 a.social-media {
-  color: #eee;
+  box-shadow: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-containee {
+  flex: 1;
 }

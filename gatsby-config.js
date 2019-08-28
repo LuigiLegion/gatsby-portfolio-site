@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Hi there, I'm Tal.`,
     author: `Tal Luigi`,
-    description: `Agronomist turned Full Stack Developer `,
+    description: `Agronomist turned Full Stack Developer.`,
     siteUrl: `https://taluigi.netlify.com/`,
     social: {
       github: `luigilegion`,
