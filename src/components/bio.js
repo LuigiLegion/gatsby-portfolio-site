@@ -60,16 +60,7 @@ const Bio = () => {
             borderRadius: `50%`,
           }}
         />
-        {/* <Link
-          style={{
-            boxShadow: `none`,
-            textDecoration: `none`,
-            color: `inherit`,
-          }}
-          to={`https://github.com/luigilegion`}
-        >
-          <img src="https://img.icons8.com/ios-glyphs/52/000000/github.png" />
-        </Link> */}
+
         <a
           className="social-media"
           href={`https://github.com/luigilegion`}
@@ -78,6 +69,7 @@ const Bio = () => {
         >
           <img src="https://img.icons8.com/ios-glyphs/52/000000/github.png" />
         </a>
+
         <a
           className="social-media"
           href={`https://www.linkedin.com/in/talluigi`}
@@ -86,6 +78,7 @@ const Bio = () => {
         >
           <img src="https://img.icons8.com/color/52/000000/linkedin.png" />
         </a>
+
         <a
           className="social-media"
           href={`https://twitter.com/luigilegion`}
@@ -93,6 +86,15 @@ const Bio = () => {
           rel="noopener noreferrer"
         >
           <img src="https://img.icons8.com/color/52/000000/twitter.png" />
+        </a>
+
+        <a
+          className="social-media"
+          href={`https://www.meetup.com/javascript-programmers`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="https://img.icons8.com/ios-filled/50/000000/meetup.png" />
         </a>
       </div>
     </div>
