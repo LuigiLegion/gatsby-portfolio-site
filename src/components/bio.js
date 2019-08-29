@@ -35,18 +35,12 @@ const Bio = () => {
   const { author, social } = data.site.siteMetadata
   return (
     <div
-      className="flex-container"
+      className="flex-column-container"
       style={{
         marginBottom: rhythm(2.5),
       }}
     >
-      <div className="flex-containee">
-        I'm a Full Stack Developer based in New York City, building useful
-        things using cool technologies.
-      </div>
-      <br />
-      <br />
-      <div className="flex-containee">
+      <div className="flex-row-container">
         <Image
           fixed={data.avatar.childImageSharp.fixed}
           alt={author}
@@ -60,16 +54,15 @@ const Bio = () => {
             borderRadius: `50%`,
           }}
         />
+        <div>
+          I'm a Full Stack Developer based in New York City, building useful
+          things using cool technologies.
+        </div>
+      </div>
 
-        <a
-          className="social-media"
-          href={`https://github.com/luigilegion`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="https://img.icons8.com/ios-glyphs/52/000000/github.png" />
-        </a>
-
+      <br />
+      <br />
+      <div className="flex-containee">
         <a
           className="social-media"
           href={`https://www.linkedin.com/in/talluigi`}
@@ -90,11 +83,29 @@ const Bio = () => {
 
         <a
           className="social-media"
+          href={`mailto:luigi.t.agr@gmail.com`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="https://img.icons8.com/color/52/000000/gmail.png" />
+        </a>
+
+        <a
+          className="social-media"
           href={`https://www.meetup.com/javascript-programmers`}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="https://img.icons8.com/ios-filled/50/000000/meetup.png" />
+          <img src="https://img.icons8.com/ios-filled/52/000000/meetup.png" />
+        </a>
+
+        <a
+          className="social-media"
+          href={`https://github.com/luigilegion`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="https://img.icons8.com/ios-glyphs/52/000000/github.png" />
         </a>
       </div>
     </div>
