@@ -32,7 +32,9 @@ const Bio = () => {
     }
   `);
 
-  const { author, social } = data.site.siteMetadata;
+  // const { author, social } = data.site.siteMetadata;
+  const { author } = data.site.siteMetadata;
+
   return (
     <div
       className="flex-column-container"
@@ -69,7 +71,10 @@ const Bio = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="https://img.icons8.com/color/52/000000/linkedin.png" />
+          <img
+          src="https://img.icons8.com/color/52/000000/linkedin.png"
+          alt="LinkedIn Icon"
+          />
         </a>
 
         <a
@@ -78,7 +83,10 @@ const Bio = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="https://img.icons8.com/color/52/000000/twitter.png" />
+          <img
+          src="https://img.icons8.com/color/52/000000/twitter.png"
+          alt="Twitter Icon"
+          />
         </a>
 
         <a
@@ -87,7 +95,10 @@ const Bio = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="https://img.icons8.com/color/52/000000/gmail.png" />
+          <img
+          src="https://img.icons8.com/color/52/000000/gmail.png"
+          alt="Gmail Icon"
+          />
         </a>
 
         <a
@@ -96,7 +107,10 @@ const Bio = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="https://img.icons8.com/ios-filled/52/000000/meetup.png" />
+          <img
+          src="https://img.icons8.com/ios-filled/52/000000/meetup.png"
+          alt="Meetup Icon"
+          />
         </a>
 
         <a
@@ -105,7 +119,10 @@ const Bio = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="https://img.icons8.com/ios-glyphs/52/000000/github.png" />
+          <img
+          src="https://img.icons8.com/ios-glyphs/52/000000/github.png"
+          alt="GitHub Icon"
+          />
         </a>
       </div>
     </div>
