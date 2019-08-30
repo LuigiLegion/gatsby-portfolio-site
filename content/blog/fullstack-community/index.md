@@ -6,7 +6,7 @@ description: Fullstack Community is a Fullstack Academy themed web app that conn
 
 ### Video Presentation:
 
-https://www.youtube.com/watch?v=hm4WL8kcvHo&feature=youtu.be
+`video: https://www.youtube.com/watch?v=hm4WL8kcvHo&feature=youtu.be`
 
 ### URL:
 

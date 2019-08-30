@@ -5,11 +5,11 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
+import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import Image from "gatsby-image";
 
-import { rhythm } from "../utils/typography"
+import { rhythm } from "../utils/typography";
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -30,9 +30,9 @@ const Bio = () => {
         }
       }
     }
-  `)
+  `);
 
-  const { author, social } = data.site.siteMetadata
+  const { author, social } = data.site.siteMetadata;
   return (
     <div
       className="flex-column-container"
@@ -65,7 +65,7 @@ const Bio = () => {
       <div className="flex-containee">
         <a
           className="social-media"
-          href={`https://www.linkedin.com/in/talluigi`}
+          href="https://www.linkedin.com/in/talluigi"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -74,7 +74,7 @@ const Bio = () => {
 
         <a
           className="social-media"
-          href={`https://twitter.com/luigilegion`}
+          href="https://twitter.com/luigilegion"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -83,7 +83,7 @@ const Bio = () => {
 
         <a
           className="social-media"
-          href={`mailto:luigi.t.agr@gmail.com`}
+          href="mailto:luigi.t.agr@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -92,7 +92,7 @@ const Bio = () => {
 
         <a
           className="social-media"
-          href={`https://www.meetup.com/javascript-programmers`}
+          href="https://www.meetup.com/javascript-programmers"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -101,7 +101,7 @@ const Bio = () => {
 
         <a
           className="social-media"
-          href={`https://github.com/luigilegion`}
+          href="https://github.com/luigilegion"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -109,7 +109,7 @@ const Bio = () => {
         </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Bio
+export default Bio;
