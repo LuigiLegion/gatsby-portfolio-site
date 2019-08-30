@@ -60,7 +60,16 @@ const Bio = () => {
         I'm a Full Stack Developer specializing in JavaScript and the NERDS stack, and I'm incredibly passionate about learning and mastering new technologies.
         <br/>
         <br/>
-        I'm also a co-organizer of a JavaScript meetup group in New York City aimed at encouraging students and professionals in the industry to collaborate and build community. <Link to="/meetups">Check out</Link> our upcoming meetups if you're in the area!
+        I'm also a co-organizer of a JavaScript meetup group in New York City aimed at encouraging students and professionals in the industry to collaborate and build community.
+        {' '}
+        <Link
+        to="/meetups"
+        className="social-media"
+        >
+        Check out
+        </Link>
+        {' '}
+        our upcoming meetups if you're in the area!
         </div>
       </div>
 

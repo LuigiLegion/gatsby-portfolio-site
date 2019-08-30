@@ -36,6 +36,7 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
                   href={curMeetup.event_url}
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="social-media"
                 >
                   <span>
                     {curMeetup.rsvp_limit ? (
@@ -52,7 +53,15 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
             </li>
           ))
         ) : (
-          <li>No upcoming Meetups were found.</li>
+          <li
+          style={{
+            textAlign: 'center',
+            listStyle: 'none',
+            display: 'inline-block',
+          }}
+          >
+          No upcoming Meetups were found.
+          </li>
         )}
       </ul>
     </div>

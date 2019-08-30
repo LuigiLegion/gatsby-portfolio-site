@@ -8,7 +8,7 @@ description: "Elevate is a web app that connects women in entry to mid-level tec
 
 ### Video Presentation:
 
-https://drive.google.com/file/d/17peVv2baevPVQOsMb4A6NrcZqBxDBRX7/view
+`video: https://www.youtube.com/watch?v=BuI-knrxfHU&feature=youtu.be`
 
 ### URL:
 
