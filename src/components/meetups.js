@@ -64,7 +64,7 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
           </li>
         )}
       </ul>
-      <Link to="/">Back</Link>
+      <Link to="/">← Back</Link>
     </div>
   );
 };

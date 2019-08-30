@@ -61,7 +61,7 @@ const Bio = () => {
         <br/>
         <br/>
         I'm also a co-organizer of a JavaScript meetup group in New York City aimed at encouraging students and professionals in the industry to collaborate and build community.
-        {' '}
+        <br />
         <Link
         to="/meetups"
         >
