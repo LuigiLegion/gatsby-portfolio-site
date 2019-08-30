@@ -6,7 +6,7 @@
  */
 
 import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql, Link } from "gatsby";
 import Image from "gatsby-image";
 
 import { rhythm } from "../utils/typography";
@@ -57,8 +57,10 @@ const Bio = () => {
           }}
         />
         <div>
-          I'm a Full Stack Developer based in New York City, building useful
-          things using cool technologies.
+        I'm a Full Stack Developer specializing in JavaScript and the NERDS stack, and I'm incredibly passionate about learning and mastering new technologies.
+        <br/>
+        <br/>
+        I'm also a co-organizer of a JavaScript meetup group in New York City aimed at encouraging students and professionals in the industry to collaborate and build community. <Link to="/meetups">Check out</Link> our upcoming meetups if you're in the area!
         </div>
       </div>
 
