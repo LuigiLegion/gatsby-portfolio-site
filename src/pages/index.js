@@ -31,7 +31,7 @@ class BlogIndex extends React.Component {
                     {title}
                   </Link>
                 </h3>
-                <small>{node.frontmatter.date}</small>
+                <small>MVP Completion Date: {node.frontmatter.date}</small>
               </header>
               <section>
                 <p
