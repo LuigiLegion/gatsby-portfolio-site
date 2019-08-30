@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {Link} from 'gatsby';
 import moment from 'moment';
 
 const AllMeetups = ({ pageContext: { allMeetups } }) => {
@@ -36,7 +37,6 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
                   href={curMeetup.event_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="social-media"
                 >
                   <span>
                     {curMeetup.rsvp_limit ? (
@@ -64,6 +64,7 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
           </li>
         )}
       </ul>
+      <Link to="/">Back</Link>
     </div>
   );
 };

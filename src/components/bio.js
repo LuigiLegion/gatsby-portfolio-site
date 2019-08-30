@@ -64,7 +64,6 @@ const Bio = () => {
         {' '}
         <Link
         to="/meetups"
-        className="social-media"
         >
         Check out
         </Link>
@@ -77,7 +76,6 @@ const Bio = () => {
       <br />
       <div className="flex-containee">
         <a
-          className="social-media"
           href="https://www.linkedin.com/in/talluigi"
           target="_blank"
           rel="noopener noreferrer"
@@ -89,7 +87,6 @@ const Bio = () => {
         </a>
 
         <a
-          className="social-media"
           href="https://twitter.com/luigilegion"
           target="_blank"
           rel="noopener noreferrer"
@@ -101,7 +98,6 @@ const Bio = () => {
         </a>
 
         <a
-          className="social-media"
           href="mailto:luigi.t.agr@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
@@ -113,7 +109,6 @@ const Bio = () => {
         </a>
 
         <a
-          className="social-media"
           href="https://www.meetup.com/javascript-programmers"
           target="_blank"
           rel="noopener noreferrer"
@@ -125,7 +120,6 @@ const Bio = () => {
         </a>
 
         <a
-          className="social-media"
           href="https://github.com/luigilegion"
           target="_blank"
           rel="noopener noreferrer"
