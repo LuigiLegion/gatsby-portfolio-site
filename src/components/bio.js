@@ -42,39 +42,7 @@ const Bio = () => {
         marginBottom: rhythm(2.5),
       }}
     >
-      <div className="flex-row-container">
-        <Image
-          fixed={data.avatar.childImageSharp.fixed}
-          alt={author}
-          style={{
-            marginRight: rhythm(1 / 2),
-            marginBottom: 0,
-            minWidth: 50,
-            borderRadius: `100%`,
-          }}
-          imgStyle={{
-            borderRadius: `50%`,
-          }}
-        />
-        <div>
-        I'm a Full Stack Developer specializing in JavaScript and the NERDS stack, and I'm incredibly passionate about learning and mastering new technologies.
-        <br/>
-        <br/>
-        I'm also a co-organizer of a JavaScript meetup group in New York City aimed at encouraging students and professionals in the industry to collaborate and build community.
-        <br />
-        <Link
-        to="/meetups"
-        >
-        Check out
-        </Link>
-        {' '}
-        our upcoming meetups if you're in the area!
-        </div>
-      </div>
-
-      <br />
-      <br />
-      <div className="flex-containee">
+    <div className="flex-containee">
         <a
           href="https://www.linkedin.com/in/talluigi"
           target="_blank"
@@ -98,13 +66,13 @@ const Bio = () => {
         </a>
 
         <a
-          href="mailto:luigi.t.agr@gmail.com"
+          href="https://github.com/luigilegion"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-          src="https://img.icons8.com/color/52/000000/gmail.png"
-          alt="Gmail Icon"
+          src="https://img.icons8.com/ios-glyphs/52/000000/github.png"
+          alt="GitHub Icon"
           />
         </a>
 
@@ -120,15 +88,53 @@ const Bio = () => {
         </a>
 
         <a
-          href="https://github.com/luigilegion"
+          href="mailto:luigi.t.agr@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-          src="https://img.icons8.com/ios-glyphs/52/000000/github.png"
-          alt="GitHub Icon"
+          src="https://img.icons8.com/color/52/000000/gmail.png"
+          alt="Gmail Icon"
           />
         </a>
+      </div>
+
+      <br />
+      <br />
+
+      <div className="flex-row-container">
+        <Image
+          fixed={data.avatar.childImageSharp.fixed}
+          alt={author}
+          style={{
+            marginRight: rhythm(1 / 2),
+            marginBottom: 0,
+            minWidth: 50,
+            borderRadius: `100%`,
+          }}
+          imgStyle={{
+            borderRadius: `50%`,
+          }}
+        />
+        <div>
+        I'm a Full Stack Developer specializing in JavaScript and the NERDS stack, and I'm incredibly passionate about learning and mastering new technologies.
+
+        <br/>
+        <br/>
+
+        I'm also a co-organizer of a JavaScript meetup group in New York City aimed at encouraging students and professionals in the industry to collaborate and build community.
+
+        <br />
+        <br />
+
+        <Link
+        to="/meetups"
+        >
+        Check out
+        </Link>
+        {' '}
+        our upcoming meetups if you're in the area!
+        </div>
       </div>
     </div>
   );
