@@ -12,7 +12,7 @@ description: "Elevate is a web app that connects women in entry to mid-level tec
 
 ### URL:
 
-http://elevateus.herokuapp.com
+https://elevateus.herokuapp.com
 
 ### GitHub Repository:
 

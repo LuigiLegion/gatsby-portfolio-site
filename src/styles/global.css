@@ -8,13 +8,19 @@ body {
   text-decoration: none;
 }
 
+img {
+  margin-bottom: 0;
+}
+
 a {
   box-shadow: none;
   text-decoration: none;
 }
 
-img {
-  margin-bottom: 0;
+li {
+  text-align: 'center';
+  list-style: 'none';
+  display: 'inline-block';
 }
 
 .flex-column-container {

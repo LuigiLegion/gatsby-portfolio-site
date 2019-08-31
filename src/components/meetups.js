@@ -3,13 +3,26 @@ import PropTypes from 'prop-types';
 import {Link} from 'gatsby';
 import moment from 'moment';
 
+import { rhythm, scale } from "../utils/typography";
+
 const AllMeetups = ({ pageContext: { allMeetups } }) => {
   const allMeetupsData = allMeetups[0].data.results;
   // console.log('allMeetupsData: ', allMeetupsData);
 
   return (
-    <div style={{ width: 960, margin: '4rem auto' }}>
-      <h1>Upcoming Meetups:</h1>
+    <div style={{
+      marginLeft: `auto`,
+      marginRight: `auto`,
+      maxWidth: rhythm(24),
+      padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+    }}>
+      <h1
+      style={{
+        ...scale(1.5),
+        marginBottom: rhythm(1.5),
+        marginTop: 0,
+      }}
+      >Upcoming Meetups:</h1>
 
       <ul style={{ padding: 0 }}>
         {allMeetupsData.length ? (
@@ -27,7 +40,7 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
               <div>{curMeetup.name}</div>
 
               <div>
-                {curMeetup.venue.address_1}, {curMeetup.venue.city}{' '}
+                {curMeetup.venue.address_1}, {curMeetup.venue.city}
               </div>
 
               <div>
