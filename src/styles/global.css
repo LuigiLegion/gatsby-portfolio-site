@@ -17,11 +17,11 @@ a {
   text-decoration: none;
 }
 
-li {
+/* ul {
   text-align: 'center';
   list-style: 'none';
   display: 'inline-block';
-}
+} */
 
 .flex-column-container {
   display: flex;

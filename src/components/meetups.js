@@ -14,26 +14,31 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
       marginLeft: `auto`,
       marginRight: `auto`,
       maxWidth: rhythm(24),
-      padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+      padding: `${rhythm(3 / 4)} ${rhythm(3 / 4)}`,
     }}>
-      <h1
+      <h6
       style={{
         ...scale(1.5),
         marginBottom: rhythm(1.5),
         marginTop: 0,
       }}
-      >Upcoming Meetups:</h1>
+      >
+      Upcoming Meetups:
+      </h6>
 
-      <ul style={{ padding: 0 }}>
+      <ul
+      style={{
+        textAlign: 'center',
+        listStyle: 'none',
+        margin: 0,
+      }}
+      className="flex-column-container"
+      >
         {allMeetupsData.length ? (
           allMeetupsData.map(curMeetup => (
             <li
               key={curMeetup.id}
-              style={{
-                textAlign: 'center',
-                listStyle: 'none',
-                display: 'inline-block',
-              }}
+              className="flex-column-container flex-containee"
             >
               <img src={curMeetup.photo_url} alt={curMeetup.name} />
 
@@ -67,16 +72,13 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
           ))
         ) : (
           <li
-          style={{
-            textAlign: 'center',
-            listStyle: 'none',
-            display: 'inline-block',
-          }}
+          className="flex-column-container flex-containee"
           >
           No upcoming Meetups were found.
           </li>
         )}
       </ul>
+      <br />
       <Link to="/">← Back</Link>
     </div>
   );
