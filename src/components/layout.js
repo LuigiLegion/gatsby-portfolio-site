@@ -69,7 +69,7 @@ class Layout extends Component {
           <span style={{color: '#eee'}}>.</span>
 
           <a
-            href="https://www.gatsbyjs.org" className="flex-large-containee left">
+            href="https://www.gatsbyjs.org" className="flex-medium-containee left">
             Gatsby
           </a>
 

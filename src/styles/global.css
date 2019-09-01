@@ -36,6 +36,10 @@ a {
   align-self: center;
 }
 
+.flex-medium-containee {
+  flex: 1.5;
+}
+
 .flex-large-containee {
   flex: 4;
 }
