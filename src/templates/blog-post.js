@@ -1,12 +1,11 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link, graphql } from "gatsby";
 
-import Bio from "../components/bio";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { rhythm, scale } from "../utils/typography";
 
-class BlogPostTemplate extends React.Component {
+class BlogPostTemplate extends Component {
   render() {
     const post = this.props.data.markdownRemark;
     const siteTitle = this.props.data.site.siteMetadata.title;
@@ -18,17 +17,28 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <Bio />
+
         <article>
           <header>
-            <h1
-              style={{
-                marginTop: rhythm(1),
-                marginBottom: 0,
-              }}
-            >
-              {post.frontmatter.title}
-            </h1>
+            <div className="flex-row-container">
+              <h1
+                className="flex-large-containee"
+                style={{
+                  marginTop: rhythm(1),
+                  marginBottom: 0,
+                }}
+              >
+                {post.frontmatter.title}
+              </h1>
+
+              <Link
+                to="/"
+                className="flex-containee right"
+              >
+                ← Back
+              </Link>
+            </div>
+
             <p
               style={{
                 ...scale(-1 / 5),
@@ -39,12 +49,14 @@ class BlogPostTemplate extends React.Component {
               MVP Completion Date: {post.frontmatter.date}
             </p>
           </header>
+
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr
             style={{
               marginBottom: rhythm(1),
             }}
           />
+
           <footer></footer>
         </article>
 
@@ -65,6 +77,7 @@ class BlogPostTemplate extends React.Component {
                 </Link>
               )}
             </li>
+
             <li>
               {next && (
                 <Link to={next.fields.slug} rel="next">

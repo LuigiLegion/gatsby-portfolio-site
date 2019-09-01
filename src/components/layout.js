@@ -1,9 +1,9 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link } from "gatsby";
 
 import { rhythm, scale } from "../utils/typography";
 
-class Layout extends React.Component {
+class Layout extends Component {
   render() {
     const { location, title, children } = this.props;
     const rootPath = `${__PATH_PREFIX__}/`;
@@ -51,6 +51,7 @@ class Layout extends React.Component {
         </h3>
       );
     }
+
     return (
       <div
         style={{
@@ -62,10 +63,24 @@ class Layout extends React.Component {
       >
         <header>{header}</header>
         <main>{children}</main>
-        <footer>
+        <footer className="flex-row-container">
           © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+
+          <span style={{color: '#eee'}}>.</span>
+
+          <a
+            href="https://www.gatsbyjs.org" className="flex-large-containee left">
+            Gatsby
+          </a>
+
+          {location.pathname !== rootPath ?
+            <Link
+              to="/"
+              className="flex-containee right"
+            >
+              ← Back
+            </Link>
+            : null}
         </footer>
       </div>
     );

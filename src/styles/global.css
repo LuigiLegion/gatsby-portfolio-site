@@ -17,12 +17,6 @@ a {
   text-decoration: none;
 }
 
-/* ul {
-  text-align: 'center';
-  list-style: 'none';
-  display: 'inline-block';
-} */
-
 .flex-column-container {
   display: flex;
   flex-direction: column;
@@ -33,10 +27,23 @@ a {
 .flex-row-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-items: center;
+  align-content: space-between;
 }
 
 .flex-containee {
   flex: 1;
+  align-self: center;
+}
+
+.flex-large-containee {
+  flex: 4;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
 }

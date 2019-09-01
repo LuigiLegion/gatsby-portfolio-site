@@ -6,6 +6,10 @@ description: Vintage Vidya Games is an NES themed e-commerce web app complete wi
 
 ![Vintage Vidya Games](./vintage_vidya_games.png)
 
+### Video Presentation:
+
+Coming soon...
+
 ### URL:
 
 https://vintage-vidya-games.herokuapp.com
