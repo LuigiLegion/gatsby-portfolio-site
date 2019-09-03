@@ -31,12 +31,9 @@ class BlogPostTemplate extends Component {
                 {post.frontmatter.title}
               </h1>
 
-              <Link
-                to="/"
-                className="flex-containee right"
-              >
-                ← Back
-              </Link>
+              <div className="flex-containee right">
+                <Link to="/">← Back</Link>
+              </div>
             </div>
 
             <p

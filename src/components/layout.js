@@ -68,18 +68,17 @@ class Layout extends Component {
 
           <span style={{color: '#eee'}}>.</span>
 
-          <a
-            href="https://www.gatsbyjs.org" className="flex-medium-containee left">
-            Gatsby
-          </a>
+          <div className="flex-medium-containee left">
+            <a
+              href="https://www.gatsbyjs.org">
+              Gatsby
+            </a>
+          </div>
 
           {location.pathname !== rootPath ?
-            <Link
-              to="/"
-              className="flex-containee right"
-            >
-              ← Back
-            </Link>
+            <div className="flex-containee right">
+              <Link to="/">← Back</Link>
+            </div>
             : null}
         </footer>
       </div>
