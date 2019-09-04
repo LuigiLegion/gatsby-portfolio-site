@@ -86,7 +86,6 @@ const Bio = () => {
           alt="Meetup Icon"
           />
         </a>
-
       </div>
 
       <br />
