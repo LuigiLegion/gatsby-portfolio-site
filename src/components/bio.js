@@ -87,16 +87,6 @@ const Bio = () => {
           />
         </a>
 
-        <a
-          href="mailto:luigi.t.agr@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-          src="https://img.icons8.com/color/52/000000/gmail.png"
-          alt="Gmail Icon"
-          />
-        </a>
       </div>
 
       <br />
