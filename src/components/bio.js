@@ -55,17 +55,6 @@ const Bio = () => {
         </a>
 
         <a
-          href="https://twitter.com/luigilegion"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-          src="https://img.icons8.com/color/52/000000/twitter.png"
-          alt="Twitter Icon"
-          />
-        </a>
-
-        <a
           href="https://github.com/luigilegion"
           target="_blank"
           rel="noopener noreferrer"
@@ -73,6 +62,17 @@ const Bio = () => {
           <img
           src="https://img.icons8.com/ios-glyphs/52/000000/github.png"
           alt="GitHub Icon"
+          />
+        </a>
+
+        <a
+          href="https://twitter.com/luigilegion"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+          src="https://img.icons8.com/color/52/000000/twitter.png"
+          alt="Twitter Icon"
           />
         </a>
 
