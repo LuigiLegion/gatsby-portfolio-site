@@ -23,7 +23,7 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
         marginTop: 0,
       }}
       >
-      Upcoming Meetups:
+      Upcoming Meetups
       </h6>
 
       <ul
@@ -74,7 +74,7 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
           <li
           className="flex-column-container flex-containee"
           >
-          No upcoming Meetups were found.
+          No upcoming Meetups were found. Check back soon!
           </li>
         )}
       </ul>
