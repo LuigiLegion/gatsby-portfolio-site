@@ -1,38 +1,40 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import {Link} from 'gatsby';
-import moment from 'moment';
+import React from 'react'
+import PropTypes from 'prop-types'
+import { Link } from 'gatsby'
+import moment from 'moment'
 
-import { rhythm, scale } from "../utils/typography";
+import { rhythm, scale } from '../utils/typography'
 
 const AllMeetups = ({ pageContext: { allMeetups } }) => {
-  const allMeetupsData = allMeetups[0].data.results;
+  const allMeetupsData = allMeetups[0].data.results
   // console.log('allMeetupsData: ', allMeetupsData);
 
   return (
-    <div style={{
-      marginLeft: `auto`,
-      marginRight: `auto`,
-      maxWidth: rhythm(24),
-      padding: `${rhythm(3 / 4)} ${rhythm(3 / 4)}`,
-    }}>
-      <h6
+    <div
       style={{
-        ...scale(1.5),
-        marginBottom: rhythm(1.5),
-        marginTop: 0,
+        marginLeft: `auto`,
+        marginRight: `auto`,
+        maxWidth: rhythm(24),
+        padding: `${rhythm(3 / 4)} ${rhythm(3 / 4)}`,
       }}
+    >
+      <h6
+        style={{
+          ...scale(1.5),
+          marginBottom: rhythm(1.5),
+          marginTop: 0,
+        }}
       >
-      Upcoming Meetups
+        Upcoming Meetups
       </h6>
 
       <ul
-      style={{
-        textAlign: 'center',
-        listStyle: 'none',
-        margin: 0,
-      }}
-      className="flex-column-container"
+        style={{
+          textAlign: 'center',
+          listStyle: 'none',
+          margin: 0,
+        }}
+        className="flex-column-container"
       >
         {allMeetupsData.length ? (
           allMeetupsData.map(curMeetup => (
@@ -71,21 +73,19 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
             </li>
           ))
         ) : (
-          <li
-          className="flex-column-container flex-containee"
-          >
-          No upcoming Meetups were found. Check back soon!
+          <li className="flex-column-container flex-containee">
+            No upcoming Meetups were found. Check back soon!
           </li>
         )}
       </ul>
       <br />
       <Link to="/">← Back</Link>
     </div>
-  );
-};
+  )
+}
 
 AllMeetups.propTypes = {
   pageContext: PropTypes.object,
-};
+}
 
-export default AllMeetups;
+export default AllMeetups

@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-import { Link } from "gatsby";
+import React, { Component } from 'react'
+import { Link } from 'gatsby'
 
-import { rhythm, scale } from "../utils/typography";
+import { rhythm, scale } from '../utils/typography'
 
 class Layout extends Component {
   render() {
-    const { location, title, children } = this.props;
-    const rootPath = `${__PATH_PREFIX__}/`;
-    let header;
+    const { location, title, children } = this.props
+    const rootPath = `${__PATH_PREFIX__}/`
+    let header
 
     if (location.pathname === rootPath) {
       header = (
@@ -29,7 +29,7 @@ class Layout extends Component {
             {title}
           </Link>
         </h1>
-      );
+      )
     } else {
       header = (
         <h3
@@ -49,7 +49,7 @@ class Layout extends Component {
             {title}
           </Link>
         </h3>
-      );
+      )
     }
 
     return (
@@ -65,25 +65,19 @@ class Layout extends Component {
         <main>{children}</main>
         <footer className="flex-row-container">
           © {new Date().getFullYear()}, Built with
-
-          <span style={{color: '#eee'}}>.</span>
-
+          <span style={{ color: '#eee' }}>.</span>
           <div className="flex-medium-containee left">
-            <a
-              href="https://www.gatsbyjs.org">
-              Gatsby
-            </a>
+            <a href="https://www.gatsbyjs.org">Gatsby</a>
           </div>
-
-          {location.pathname !== rootPath ?
+          {location.pathname !== rootPath ? (
             <div className="flex-containee right">
               <Link to="/">← Back</Link>
             </div>
-            : null}
+          ) : null}
         </footer>
       </div>
-    );
+    )
   }
 }
 
-export default Layout;
+export default Layout

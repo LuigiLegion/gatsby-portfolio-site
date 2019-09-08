@@ -1,15 +1,15 @@
-import React, { Component } from "react";
-import { Link, graphql } from "gatsby";
+import React, { Component } from 'react'
+import { Link, graphql } from 'gatsby'
 
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import { rhythm, scale } from "../utils/typography";
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import { rhythm, scale } from '../utils/typography'
 
 class BlogPostTemplate extends Component {
   render() {
-    const post = this.props.data.markdownRemark;
-    const siteTitle = this.props.data.site.siteMetadata.title;
-    const { previous, next } = this.props.pageContext;
+    const post = this.props.data.markdownRemark
+    const siteTitle = this.props.data.site.siteMetadata.title
+    const { previous, next } = this.props.pageContext
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -54,7 +54,7 @@ class BlogPostTemplate extends Component {
             }}
           />
 
-          <footer></footer>
+          <footer />
         </article>
 
         <nav>
@@ -85,11 +85,11 @@ class BlogPostTemplate extends Component {
           </ul>
         </nav>
       </Layout>
-    );
+    )
   }
 }
 
-export default BlogPostTemplate;
+export default BlogPostTemplate
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
@@ -110,4 +110,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`
