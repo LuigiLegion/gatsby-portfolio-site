@@ -5,11 +5,11 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react";
-import { useStaticQuery, graphql, Link } from "gatsby";
-import Image from "gatsby-image";
+import React from 'react'
+import { useStaticQuery, graphql, Link } from 'gatsby'
+import Image from 'gatsby-image'
 
-import { rhythm } from "../utils/typography";
+import { rhythm } from '../utils/typography'
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -30,10 +30,10 @@ const Bio = () => {
         }
       }
     }
-  `);
+  `)
 
   // const { author, social } = data.site.siteMetadata;
-  const { author } = data.site.siteMetadata;
+  const { author } = data.site.siteMetadata
 
   return (
     <div
@@ -42,15 +42,15 @@ const Bio = () => {
         marginBottom: rhythm(2.5),
       }}
     >
-    <div className="flex-containee">
+      <div className="flex-containee">
         <a
           href="https://www.linkedin.com/in/talluigi"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-          src="https://img.icons8.com/color/52/000000/linkedin.png"
-          alt="LinkedIn Icon"
+            src="https://img.icons8.com/color/52/000000/linkedin.png"
+            alt="LinkedIn Icon"
           />
         </a>
 
@@ -60,8 +60,8 @@ const Bio = () => {
           rel="noopener noreferrer"
         >
           <img
-          src="https://img.icons8.com/ios-glyphs/52/000000/github.png"
-          alt="GitHub Icon"
+            src="https://img.icons8.com/ios-glyphs/52/000000/github.png"
+            alt="GitHub Icon"
           />
         </a>
 
@@ -71,8 +71,8 @@ const Bio = () => {
           rel="noopener noreferrer"
         >
           <img
-          src="https://img.icons8.com/color/52/000000/twitter.png"
-          alt="Twitter Icon"
+            src="https://img.icons8.com/color/52/000000/twitter.png"
+            alt="Twitter Icon"
           />
         </a>
 
@@ -82,8 +82,8 @@ const Bio = () => {
           rel="noopener noreferrer"
         >
           <img
-          src="https://img.icons8.com/ios-filled/52/000000/meetup.png"
-          alt="Meetup Icon"
+            src="https://img.icons8.com/ios-filled/52/000000/meetup.png"
+            alt="Meetup Icon"
           />
         </a>
       </div>
@@ -106,27 +106,31 @@ const Bio = () => {
           }}
         />
         <div>
-        I'm a Full Stack Developer specializing in JavaScript and the NERDS stack, and I'm incredibly passionate about learning and mastering new technologies.
-
-        <br/>
-        <br/>
-
-        I'm also a co-organizer of a JavaScript meetup group in New York City aimed at encouraging students and professionals in the industry to collaborate and build community.
-
-        <br />
-        <br />
-
-        <Link
-        to="/meetups"
-        >
-        Check out
-        </Link>
-        {' '}
-        our upcoming meetups if you're in the area!
+          I'm a Full Stack Developer specializing in JavaScript and the NERDS
+          stack, and I'm incredibly passionate about learning and mastering new
+          technologies.
+          <br />
+          <br />
+          Proficient: JavaScript, Node.js, Express.js, React.js, Redux.js,
+          Sequelize.js, PostgreSQL, CSS3, HTML5, Git, Github
+          <br />
+          Knowledgeable: React Native, Firebase, Webpack, Socket.io, TDD (Mocha,
+          Chai, Jasmine)
+          <br />
+          Some Familiarity: SQL, MySQL
+          <br />
+          <br />
+          I'm also a co-organizer of a JavaScript meetup group in New York City
+          aimed at encouraging students and professionals in the industry to
+          collaborate and build community.
+          <br />
+          <br />
+          <Link to="/meetups">Check out</Link> our upcoming meetups if you're in
+          the area!
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Bio;
+export default Bio
