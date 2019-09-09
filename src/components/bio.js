@@ -112,7 +112,7 @@ const Bio = () => {
           <br />
           <br />
           Proficient: JavaScript, Node.js, Express.js, React.js, Redux.js,
-          Sequelize.js, PostgreSQL, CSS3, HTML5, Git, Github
+          Sequelize.js, PostgreSQL, CSS3, HTML5, Git, GitHub
           <br />
           Knowledgeable: React Native, Firebase, Webpack, Socket.io, TDD (Mocha,
           Chai, Jasmine)
