@@ -126,7 +126,7 @@ const Bio = () => {
           <br />
           <br />
           <Link to="/meetups">Check out</Link> our upcoming meetups if you're in
-          the area!
+          the area.
         </div>
       </div>
     </div>
