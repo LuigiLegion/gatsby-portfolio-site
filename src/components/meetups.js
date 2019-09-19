@@ -23,6 +23,7 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
           ...scale(1.5),
           marginBottom: rhythm(1.5),
           marginTop: 0,
+          textAlign: 'center',
         }}
       >
         Upcoming Meetups
