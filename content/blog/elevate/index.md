@@ -20,7 +20,12 @@ https://github.com/equalithon-rm/reverseMentoring
 
 ### Dev Team:
 
-Tal Luigi, Macarena Carreno, Linda Saraguro, Jocelyn Jeriah, Sam Peach, and Madinah Ali.
+- Tal Luigi ([LinkedIn](https://www.linkedin.com/in/talluigi) | [GitHub](https://github.com/luigilegion))
+- Macarena Carreno ([LinkedIn](https://www.linkedin.com/in/mcarrenog) | [GitHub](https://github.com/macarenacarreno))
+- Linda Saraguro ([LinkedIn](https://www.linkedin.com/in/linda-saraguro-123524122) | [GitHub](https://github.com/saragurol))
+- Jocelyn Jeriah ([LinkedIn](https://www.linkedin.com/in/jocelynjeriah) | [GitHub](https://github.com/luminousbeam))
+- Sam Peach ([LinkedIn](https://www.linkedin.com/in/sam-peach) | [GitHub](https://github.com/sam-peach))
+- Madinah Ali ([LinkedIn](https://www.linkedin.com/in/madinahali))
 
 ### Tech Stack:
 
