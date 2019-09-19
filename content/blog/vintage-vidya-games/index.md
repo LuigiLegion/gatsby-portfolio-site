@@ -20,7 +20,9 @@ https://github.com/fiesty-fish/vintageesportsllc
 
 ### Dev Team:
 
-Tal Luigi, Michael Ng, and Ricky Lau.
+- Tal Luigi ([LinkedIn](https://www.linkedin.com/in/talluigi) | [GitHub](https://github.com/luigilegion))
+- Michael Ng ([LinkedIn](https://www.linkedin.com/in/michael-m-ng) | [GitHub](https://github.com/xmng))
+- Ricky Lau ([LinkedIn](https://www.linkedin.com/in/rickylaudev) | [GitHub](https://github.com/rickylaufitness))
 
 ### Description:
 
