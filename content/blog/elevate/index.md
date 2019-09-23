@@ -1,5 +1,5 @@
 ---
-title: Elevate - Winnter of 2019 Essteem Hackathon for Gender Equality
+title: Elevate (Winner of the Essteem Hackathon for Gender Equality)
 date: "2019-08-16T12:34:56.121Z"
 description: "Elevate is a web app that connects women in entry to mid-level tech roles with executives across various industries through an inclusive reverse mentoring process. The app provides a platform in which executives match with women in their field based on identified areas of expertise and then pairing with junior or mid-level employees who are interested in learning more about those topics. In turn, the millennial women seeking mentorship will also provide guidance to the executives on technical skills that they are interested in enhancing."
 ---
