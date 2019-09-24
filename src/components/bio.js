@@ -106,7 +106,7 @@ const Bio = () => {
           }}
         />
         <div>
-          I'm a Full Stack Developer specializing in JavaScript and the NERDS
+          I'm a Software Engineer specializing in JavaScript and the NERDS
           stack, and I'm incredibly passionate about learning and mastering new
           technologies.
           <br />
