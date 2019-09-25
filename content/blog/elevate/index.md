@@ -29,7 +29,7 @@ https://github.com/equalithon-rm/reverseMentoring
 
 ### Tech Stack:
 
-The app was built using Node.js, Express.js, Sequelize.js, and PostgreSQL on the backend, React.js, Redux.js, and Bulma.css on the frontend, and utilizes Nodemailer and Calendly. It was completed using Agile methodologies in 14 days for Essteem's gender equality hackathon sponsored by Nasdaq and Capital One, and is continually being improved upon.
+The app was built using Node.js, Express.js, Sequelize.js, and PostgreSQL on the backend, React.js, Redux.js, and Bulma.css on the frontend, and utilizes Nodemailer and Calendly. It was completed using Agile methodologies in 14 days for the Essteem hackathon for gender equality sponsored by Nasdaq and Capital One in which it won first place, and is continually being improved upon.
 
 ### Description:
 
