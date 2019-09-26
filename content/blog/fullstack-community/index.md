@@ -4,7 +4,7 @@ date: "2019-06-24T12:34:56.121Z"
 description: Fullstack Community is a Fullstack Academy themed web app that connects past and present Fullstack students. The app allows current students and unemployed alums to form study groups and work on projects or practice algorithms together, while also allowing unemployed alums set up coffee meetings with employed alums that work for companies that they would like to work for in New York City.
 ---
 
-![Fullstack Community](./fullstack_community.png)
+![Fullstack Community Screenshot](./fullstack_community.png)
 
 ### Video Presentation:
 
