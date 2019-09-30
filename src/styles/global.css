@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .flex-column-container {
   display: flex;
   flex-direction: column;
