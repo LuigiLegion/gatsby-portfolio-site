@@ -1,8 +1,7 @@
-import React from 'react'
-import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import moment from 'moment'
-
+import PropTypes from 'prop-types'
+import React from 'react'
 import { rhythm, scale } from '../utils/typography'
 
 const AllMeetups = ({ pageContext: { allMeetups } }) => {
@@ -52,7 +51,9 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
               </div>
 
               <div>
-                <div>Takes place {moment(curMeetup.time).fromNow()}</div>
+                <div title={moment(curMeetup.time).format('LLLL')}>
+                  Takes place {moment(curMeetup.time).fromNow()}
+                </div>
 
                 <a
                   href={curMeetup.event_url}
