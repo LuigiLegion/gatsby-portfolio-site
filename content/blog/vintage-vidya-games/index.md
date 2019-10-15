@@ -26,7 +26,7 @@ https://github.com/fiesty-fish/vintageesportsllc
 
 ### Description:
 
-Vintage Vidya Games is an NES themed e-commerce web app complete with graphics and sound, that offers old-school video games for sale.
+Vintage Vidya Games is an NES themed e-commerce Progressive Web App (PWA) in-progress, complete with Super Mario Bros. graphics and game sounds, that offers old-school video games for sale.
 
 ### Tech Stack:
 
