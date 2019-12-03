@@ -120,7 +120,7 @@ const Bio = () => {
           Some Familiarity: SQL, MySQL
           <br />
           <br />
-          I'm also a co-organizer of a JavaScript meetup group in New York City
+          I'm also a co-organizer of a NYC Coders, a meetup group on Meetup.com
           aimed at encouraging students and professionals in the industry to
           collaborate and build community.
           <br />
