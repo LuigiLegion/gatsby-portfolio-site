@@ -55,3 +55,7 @@ a:hover {
 .left {
   text-align: left;
 }
+
+.bold-text-style {
+  font-weight: bold;
+}
