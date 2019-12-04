@@ -48,6 +48,7 @@ class BlogPostTemplate extends Component {
           </header>
 
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
+
           <hr
             style={{
               marginBottom: rhythm(1),

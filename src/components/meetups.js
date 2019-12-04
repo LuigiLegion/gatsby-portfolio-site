@@ -80,7 +80,9 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
           </li>
         )}
       </ul>
+
       <br />
+
       <Link to="/">← Back</Link>
     </div>
   )

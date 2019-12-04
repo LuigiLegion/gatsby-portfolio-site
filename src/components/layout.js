@@ -62,7 +62,9 @@ class Layout extends Component {
         }}
       >
         <header>{header}</header>
+
         <main>{children}</main>
+
         <footer className="flex-row-container">
           © {new Date().getFullYear()}, Built with
           <span style={{ color: '#eee' }}>.</span>
