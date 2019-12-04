@@ -16,7 +16,7 @@ class BlogIndex extends Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Tal Luigi" />
         <Bio />
-        <h3>Here are some of the apps I've been working on:</h3>
+        <h3>Here are some of the projects I've been working on:</h3>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
