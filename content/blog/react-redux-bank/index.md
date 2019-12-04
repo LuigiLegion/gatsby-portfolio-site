@@ -1,7 +1,7 @@
 ---
 title: React-Redux Bank
 date: "2019-10-10T12:34:56.121Z"
-description: Workshop that walks students through creating a mock bank app using React and Redux.
+description: Educational workshop that goes through the steps of setting up a mock bank app using React, Redux, and React-Redux.
 ---
 
 ![React-Redux Bank Screenshot](./react_redux_bank.png)
@@ -20,13 +20,13 @@ https://github.com/LuigiLegion/react-redux-bank
 
 ### Description:
 
-Workshop that walks students through creating a mock bank app using React and Redux.
+Educational workshop that goes through the steps of setting up a mock bank app using React, Redux, and React-Redux.
 
 Completed in 2 days for a code-along.
 
 ### Tech Stack:
 
-Built using React and Redux on the frontend.
+Built using React, Redux, and React-Redux.
 
 ### Dev Team:
 
