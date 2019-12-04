@@ -15,7 +15,9 @@ class BlogIndex extends Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Tal Luigi" />
+
         <Bio />
+
         <h3>Here are some of the projects I've worked on:</h3>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
@@ -31,8 +33,10 @@ class BlogIndex extends Component {
                     {title}
                   </Link>
                 </h3>
+
                 <small>MVP Completion Date: {node.frontmatter.date}</small>
               </header>
+
               <section>
                 <p
                   dangerouslySetInnerHTML={{

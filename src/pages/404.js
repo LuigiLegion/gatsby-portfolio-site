@@ -11,7 +11,9 @@ class NotFoundPage extends Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="404: Not Found" />
+
         <h1>Page Not Found</h1>
+
         <p>This route does not exist.</p>
       </Layout>
     )
