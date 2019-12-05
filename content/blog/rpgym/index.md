@@ -1,7 +1,7 @@
 ---
 title: RPGym
 date: "2019-07-12T12:34:56.121Z"
-description: NES themed web app that gamifies fitness. The app allows users to create avatars based on the workout statistics recorded on their Strava accounts, and use them to battle one another. Strava is free workout tracking app.
+description: NES themed web app that gamifies fitness. The app allows users to create avatars based on the workout statistics recorded on their Strava accounts, and use them to battle one another. Strava is a free workout tracking app.
 ---
 
 ![RPGym Screenshot](../rpgym/rpgym.png)
@@ -20,7 +20,7 @@ https://github.com/1904cs-golf-ibis/rpgym
 
 ### Description:
 
-NES themed web app that gamifies fitness. The app allows users to create avatars based on the workout statistics recorded on their Strava accounts, and use them to battle one another. Strava is free workout tracking app.
+NES themed web app that gamifies fitness. The app allows users to create avatars based on the workout statistics recorded on their Strava accounts, and use them to battle one another. Strava is a free workout tracking app.
 
 MVP completed using Agile methodologies in 14 days for a group project.
 

@@ -32,7 +32,6 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
       <ul
         style={{
           textAlign: 'center',
-          listStyle: 'none',
           margin: 0,
         }}
         className="flex-column-container"
