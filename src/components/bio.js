@@ -42,15 +42,17 @@ const Bio = () => {
         marginBottom: rhythm(2.5),
       }}
     >
-      <div className="flex-containee">
+      <div className="flex-containee social-media-container">
         <a
           href="https://www.linkedin.com/in/talluigi"
           target="_blank"
           rel="noopener noreferrer"
+          className="social-media-container social-media-containee"
         >
           <img
             src="https://img.icons8.com/color/52/000000/linkedin.png"
             alt="LinkedIn Icon"
+            className="social-media-containee social-media-icon"
           />
         </a>
 
@@ -58,10 +60,12 @@ const Bio = () => {
           href="https://github.com/luigilegion"
           target="_blank"
           rel="noopener noreferrer"
+          className="social-media-container social-media-containee"
         >
           <img
             src="https://img.icons8.com/ios-glyphs/52/000000/github.png"
             alt="GitHub Icon"
+            className="social-media-containee social-media-icon"
           />
         </a>
 
@@ -69,10 +73,12 @@ const Bio = () => {
           href="https://twitter.com/luigilegion"
           target="_blank"
           rel="noopener noreferrer"
+          className="social-media-container social-media-containee"
         >
           <img
             src="https://img.icons8.com/color/52/000000/twitter.png"
             alt="Twitter Icon"
+            className="social-media-containee social-media-icon"
           />
         </a>
 
@@ -80,10 +86,12 @@ const Bio = () => {
           href="https://www.meetup.com/nyc-coders"
           target="_blank"
           rel="noopener noreferrer"
+          className="social-media-container social-media-containee"
         >
           <img
             src="https://img.icons8.com/ios-filled/52/000000/meetup.png"
             alt="Meetup Icon"
+            className="social-media-containee social-media-icon"
           />
         </a>
       </div>
@@ -92,7 +100,7 @@ const Bio = () => {
       <br />
 
       <div className="flex-row-container">
-        <Image
+        {/* <Image
           fixed={data.avatar.childImageSharp.fixed}
           alt={author}
           style={{
@@ -104,7 +112,8 @@ const Bio = () => {
           imgStyle={{
             borderRadius: `50%`,
           }}
-        />
+        /> */}
+
         <div>
           <div>
             I'm a Software Engineer specializing in JavaScript and the NERDS
@@ -133,9 +142,9 @@ const Bio = () => {
           <br />
 
           <div>
-            I'm also a co-organizer of a NYC Coders, a meetup group on
-            Meetup.com aimed at encouraging students and professionals in the
-            industry to collaborate and build community.
+            I'm also a co-organizer of NYC Coders, a meetup group on Meetup.com
+            aimed at encouraging students and professionals in the industry to
+            collaborate and build community.
           </div>
 
           <div>
