@@ -1,7 +1,8 @@
+import React, { Fragment } from 'react'
 import { Link } from 'gatsby'
 import moment from 'moment'
 import PropTypes from 'prop-types'
-import React from 'react'
+
 import { rhythm, scale } from '../utils/typography'
 
 const AllMeetups = ({ pageContext: { allMeetups } }) => {
@@ -75,9 +76,15 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
             </li>
           ))
         ) : (
-          <li className="flex-column-container flex-containee">
-            No upcoming Meetups were found. Check back soon!
-          </li>
+          <Fragment>
+            <li className="flex-column-container flex-containee">
+              No upcoming Meetups were found.
+            </li>
+
+            <li className="flex-column-container flex-containee">
+              Check back soon!
+            </li>
+          </Fragment>
         )}
       </ul>
 
