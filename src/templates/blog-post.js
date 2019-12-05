@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { Link, graphql } from 'gatsby'
 
+import { rhythm, scale } from '../utils/typography'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import { rhythm, scale } from '../utils/typography'
 
 class BlogPostTemplate extends Component {
   render() {

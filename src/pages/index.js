@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
-import { Link, graphql } from 'gatsby'
+import React, { Component } from "react"
+import { Link, graphql } from "gatsby"
 
-import Bio from '../components/bio'
-import Layout from '../components/layout'
-import SEO from '../components/seo'
-import { rhythm } from '../utils/typography'
+import { rhythm } from "../utils/typography"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import Bio from "../components/bio"
 
 class BlogIndex extends Component {
   render() {
