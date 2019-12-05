@@ -77,7 +77,7 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
         ) : (
           <Fragment>
             <li className="flex-column-container flex-containee">
-              No upcoming Meetups were found.
+              No upcoming meetups were found.
             </li>
 
             <li className="flex-column-container flex-containee">
