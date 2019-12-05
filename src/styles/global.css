@@ -8,13 +8,18 @@ body {
   text-decoration: none;
 }
 
-img {
-  margin-bottom: 0;
-}
-
 a {
   box-shadow: none;
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+img {
+  margin-bottom: 0;
 }
 
 a:hover {
@@ -58,4 +63,21 @@ a:hover {
 
 .bold-text-style {
   font-weight: bold;
+}
+
+.social-media-container {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-content: space-between;
+  width: 300px;
+}
+
+.social-media-containee {
+  flex: 1;
+  align-self: center;
+}
+
+.social-media-icon {
+  padding: 0 15%;
 }
