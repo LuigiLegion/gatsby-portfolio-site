@@ -143,8 +143,8 @@ const Bio = () => {
           <br />
 
           <div>
-            I'm also a co-organizer of NYC Coders, a meetup group on Meetup.com
-            aimed at encouraging students and professionals in the industry to
+            I'm also a co-organizer of NYC Coders, a meetup group aimed at
+            encouraging students and professionals in the industry to
             collaborate and build community.
           </div>
 
