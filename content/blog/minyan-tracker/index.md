@@ -4,7 +4,7 @@ date: "2019-11-19T12:34:56.121Z"
 description: Responsive web app that allows users to check-in to services at their congregations and share their check-in status with their fellow congregation members in real time.
 ---
 
-![Minyan Tracker Screenshot](./minyan_tracker.png)
+![Minyan Tracker Screenshot](./minyan-tracker.png)
 
 ### Video Presentation:
 

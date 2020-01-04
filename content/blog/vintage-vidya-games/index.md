@@ -4,7 +4,7 @@ date: "2019-06-19T12:34:56.121Z"
 description: NES themed e-commerce responsive web app that offers old-school video games for sale.
 ---
 
-![Vintage Vidya Games Screenshot](./vintage_vidya_games.png)
+![Vintage Vidya Games Screenshot](./vintage-vidya-games.png)
 
 ### Video Presentation:
 
