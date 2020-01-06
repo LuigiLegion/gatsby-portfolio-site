@@ -7,7 +7,7 @@ import { rhythm, scale } from '../utils/typography'
 
 const AllMeetups = ({ pageContext: { allMeetups } }) => {
   const allMeetupsData = allMeetups[0].data.results
-  // console.log('allMeetupsData: ', allMeetupsData);
+  // console.log('allMeetupsData: ', allMeetupsData)
 
   return (
     <div
@@ -46,9 +46,13 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
 
               <div>{curMeetup.name}</div>
 
-              <div>
-                {curMeetup.venue.address_1}, {curMeetup.venue.city}
-              </div>
+              {curMeetup.venue ? (
+                <div>
+                  {curMeetup.venue.address_1}, {curMeetup.venue.city}
+                </div>
+              ) : (
+                <div>11 Bond St, New York, NY</div>
+              )}
 
               <div>
                 <div title={moment(curMeetup.time).format('LLLL')}>
@@ -81,7 +85,7 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
             </li>
 
             <li className="flex-column-container flex-containee">
-              Check back soon!
+              Please check back soon!
             </li>
           </Fragment>
         )}

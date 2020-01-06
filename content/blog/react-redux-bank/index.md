@@ -22,7 +22,7 @@ https://github.com/LuigiLegion/react-redux-bank
 
 Educational workshop that goes through the steps of setting up a mock bank app using React, Redux, and React-Redux.
 
-Completed in 2 days for a code-along.
+MVP completed in 2 days for a code-along.
 
 ### Tech Stack:
 
