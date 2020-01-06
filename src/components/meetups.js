@@ -81,7 +81,7 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
             </li>
 
             <li className="flex-column-container flex-containee">
-              Check back soon!
+              Please check back soon!
             </li>
           </Fragment>
         )}
