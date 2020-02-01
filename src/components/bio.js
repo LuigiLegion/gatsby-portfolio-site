@@ -127,12 +127,12 @@ const Bio = () => {
           <div>
             <span className="bold-text-style">Proficient:</span> JavaScript,
             React, Redux, Node.js, Express, PostgreSQL, Sequelize, Firebase,
-            CSS3, HTML5, Git, GitHub, Heroku, CI/CD, Postman
+            CSS3, HTML5, Git, GitHub, Heroku, CI/CD
           </div>
 
           <div>
-            <span className="bold-text-style">Knowledgeable:</span> React
-            Native, Socket.io, Webpack, TDD (Mocha, Chai, Jasmine)
+            <span className="bold-text-style">Knowledgeable:</span> GraphQL,
+            React Native, Socket.io, Webpack, TDD (Mocha, Chai, Jasmine)
           </div>
 
           <div>
