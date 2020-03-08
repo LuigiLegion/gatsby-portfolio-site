@@ -22,7 +22,7 @@ https://github.com/LuigiLegion/stock-tracker
 
 Responsive web app that...
 
-MVP completed in 0 days for a solo project.
+MVP completed in 14 days for a solo project.
 
 ### Tech Stack:
 
