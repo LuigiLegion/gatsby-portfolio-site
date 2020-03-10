@@ -1,6 +1,6 @@
 ---
 title: Stock Tracker
-date: "2020-03-04T12:34:56.121Z"
+date: "2020-02-29T12:34:56.121Z"
 description: Responsive web app that allows users to buy shares, review their past transactions, and keep track of the performance of their portfolio in real time.
 ---
 
@@ -22,7 +22,7 @@ https://github.com/LuigiLegion/stock-tracker
 
 Responsive web app that allows users to buy shares, review their past transactions, and keep track of the performance of their portfolio in real time.
 
-MVP completed in 14 days as a solo project for the NYC Tech Talent Pipeline.
+MVP completed in 10 days as a solo project for the NYC Tech Talent Pipeline.
 
 ### Tech Stack:
 
