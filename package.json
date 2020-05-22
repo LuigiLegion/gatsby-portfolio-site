@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-blog",
-  "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "gatsby-portfolio-site",
+  "version": "1.0.0",
+  "description": "",
+  "private": false,
+  "author": "Tal Luigi",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
@@ -45,7 +46,6 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
