@@ -3,7 +3,7 @@ module.exports = {
     title: `Hi there, I'm Tal.`,
     author: `Tal Luigi`,
     description: `Agronomist turned Software Engineer.`,
-    siteUrl: `https://taluigi.netlify.com/`,
+    siteUrl: `https://taluigi.netlify.com`,
     social: {
       github: `luigilegion`,
       linkedin: `talluigi`,
