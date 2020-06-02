@@ -14,7 +14,7 @@ Coming soon...
 
 https://minyan-tracker.web.app
 
-### GitHub Repository:
+### Source:
 
 https://github.com/luigilegion/minyan-tracker
 

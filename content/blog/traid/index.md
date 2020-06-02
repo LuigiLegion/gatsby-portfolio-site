@@ -14,7 +14,7 @@ description: Responsive web app that allows users to offer and request aid from 
 
 https://tr-aid.web.app
 
-### GitHub Repository:
+### Source:
 
 https://github.com/equalithon-team-three
 

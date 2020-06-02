@@ -14,7 +14,7 @@ Coming soon...
 
 https://gitness-tracker.web.app
 
-### GitHub Repo:
+### Source:
 
 https://github.com/luigilegion/gitness-tracker
 

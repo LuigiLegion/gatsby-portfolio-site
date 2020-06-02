@@ -14,7 +14,7 @@ description: Fullstack Academy themed responsive web app that connects past and 
 
 https://fullstack-community.web.app
 
-### GitHub Repository:
+### Source:
 
 https://github.com/luigilegion/fullstackcommunity
 

@@ -14,7 +14,7 @@ Coming soon...
 
 https://meetup-tracker.herokuapp.com
 
-### GitHub Repo:
+### Source:
 
 https://github.com/luigilegion/meetup-tracker
 

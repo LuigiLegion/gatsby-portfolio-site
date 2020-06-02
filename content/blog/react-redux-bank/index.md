@@ -14,7 +14,7 @@ Coming soon...
 
 Coming soon...
 
-### GitHub Repository:
+### Source:
 
 https://github.com/luigilegion/react-redux-bank
 

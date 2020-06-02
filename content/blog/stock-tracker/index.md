@@ -14,7 +14,7 @@ Coming soon...
 
 https://iex-stock-tracker.herokuapp.com
 
-### GitHub Repo:
+### Source:
 
 https://github.com/luigilegion/stock-tracker
 

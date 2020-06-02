@@ -14,7 +14,7 @@ Coming soon...
 
 https://vintage-vidya-games.herokuapp.com
 
-### GitHub Repo:
+### Source:
 
 https://github.com/fiesty-fish/vintageesportsllc
 

@@ -14,7 +14,7 @@ description: Responsive web app that connects women in entry to mid-level tech r
 
 https://elevateus.herokuapp.com
 
-### GitHub Repository:
+### Source:
 
 https://github.com/equalithon-rm/reversementoring
 

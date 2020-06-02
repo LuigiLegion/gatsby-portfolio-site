@@ -14,7 +14,7 @@ description: NES themed web app that gamifies fitness. The app allows users to c
 
 https://rpgym.herokuapp.com
 
-### GitHub Repo:
+### Source:
 
 https://github.com/1904cs-golf-ibis/rpgym
 

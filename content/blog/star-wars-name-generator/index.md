@@ -14,7 +14,7 @@ Coming soon...
 
 https://star-wars-name-generator.web.app
 
-### GitHub Repo:
+### Source:
 
 https://github.com/luigilegion/star-wars-name-generator
 
