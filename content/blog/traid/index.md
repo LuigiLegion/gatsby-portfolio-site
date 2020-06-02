@@ -26,7 +26,7 @@ MVP completed using Agile methodologies in 7 days for the Essteem Hackathon for 
 
 ### Tech Stack:
 
-Built using Ruby and Ruby on Rails on the backend and React and Bootswatch on the frontend.
+Built using Ruby, Ruby on Rails, and Active Record on the backend and React and Bootswatch on the frontend.
 
 ### Dev Team:
 
