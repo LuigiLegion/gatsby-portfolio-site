@@ -16,7 +16,7 @@ https://gitness-tracker.web.app
 
 ### GitHub Repo:
 
-https://github.com/LuigiLegion/gitness-tracker
+https://github.com/luigilegion/gitness-tracker
 
 ### Description:
 
@@ -26,7 +26,7 @@ MVP completed in 4 days for a solo project.
 
 ### Tech Stack:
 
-Built using React, Redux, and Materialize.css, and utilizes the GitHub GraphQL API.
+Built using React, Redux, and Materialize, and utilizes the GitHub GraphQL API.
 
 ### Dev Team:
 

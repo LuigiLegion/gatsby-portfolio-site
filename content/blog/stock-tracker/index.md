@@ -16,7 +16,7 @@ https://iex-stock-tracker.herokuapp.com
 
 ### GitHub Repo:
 
-https://github.com/LuigiLegion/stock-tracker
+https://github.com/luigilegion/stock-tracker
 
 ### Description:
 
@@ -26,7 +26,7 @@ MVP completed in 10 days as a solo project for the NYC Tech Talent Pipeline.
 
 ### Tech Stack:
 
-Built using Node.js, Express, PostgreSQL, and Sequelize on the backend, React, Redux, and Materialize.css on the frontend, and utilizes the IEX Cloud API.
+Built using Node.js, Express, PostgreSQL, and Sequelize on the backend, React, Redux, and Materialize on the frontend, and utilizes the IEX Cloud API.
 
 ### Dev Team:
 

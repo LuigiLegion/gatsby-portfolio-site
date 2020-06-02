@@ -12,7 +12,7 @@ Coming soon...
 
 ### GitHub Repo:
 
-https://github.com/LuigiLegion/facultech
+https://github.com/luigilegion/facultech
 
 ### Description:
 

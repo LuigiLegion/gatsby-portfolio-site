@@ -26,7 +26,7 @@ MVP completed using Agile methodologies in 10 days for a group project.
 
 ### Tech Stack:
 
-Built using the NERDS stack and utilizes NES.css and the Stripe API.
+Built using Node.js, Express, PostgreSQL, and Sequelize on the backend, React, Redux, and NES.css on the frontend, and utilizes the Stripe API.
 
 ### Dev Team:
 

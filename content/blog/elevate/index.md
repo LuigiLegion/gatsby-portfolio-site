@@ -16,7 +16,7 @@ https://elevateus.herokuapp.com
 
 ### GitHub Repository:
 
-https://github.com/equalithon-rm/reverseMentoring
+https://github.com/equalithon-rm/reversementoring
 
 ### Description:
 
@@ -26,7 +26,7 @@ MVP completed using Agile methodologies in 14 days for the Essteem Hackathon for
 
 ### Tech Stack:
 
-Built using the NERDS stack and utilizes Bulma.css, Nodemailer, and Calendly.
+Built using Node.js, Express, PostgreSQL, and Sequelize on the backend, React, Redux, and Bulma on the frontend, and utilizes Nodemailer and Calendly.
 
 ### Dev Team:
 

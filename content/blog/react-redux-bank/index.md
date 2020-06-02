@@ -16,7 +16,7 @@ Coming soon...
 
 ### GitHub Repository:
 
-https://github.com/LuigiLegion/react-redux-bank
+https://github.com/luigilegion/react-redux-bank
 
 ### Description:
 

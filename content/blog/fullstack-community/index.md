@@ -16,7 +16,7 @@ https://fullstack-community.web.app
 
 ### GitHub Repository:
 
-https://github.com/LuigiLegion/fullstackcommunity
+https://github.com/luigilegion/fullstackcommunity
 
 ### Description:
 
@@ -26,7 +26,7 @@ MVP completed in 4 days for a solo project, and is continually being improved up
 
 ### Tech Stack:
 
-Built using Node.js and Firebase on the backend, React, Redux, and Materialize.css on the frontend, and utilizes the Mapbox, MTA, Socrata, NYC Open Data, and Meetup APIs.
+Built using Node.js and Firebase on the backend, React, Redux, and Materialize on the frontend, and utilizes the Mapbox, MTA, Socrata, NYC Open Data, and Meetup APIs.
 
 ### Dev Team:
 

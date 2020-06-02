@@ -16,7 +16,7 @@ https://minyan-tracker.web.app
 
 ### GitHub Repository:
 
-https://github.com/LuigiLegion/minyan-tracker
+https://github.com/luigilegion/minyan-tracker
 
 ### Description:
 
@@ -26,7 +26,7 @@ MVP completed in 4 days for a solo project.
 
 ### Tech Stack:
 
-Built using Node.js and Firebase on the backend, and React, Redux, and Materialize.css on the frontend.
+Built using Node.js and Firebase on the backend and React, Redux, and Materialize on the frontend.
 
 ### Dev Team:
 

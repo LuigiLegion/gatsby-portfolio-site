@@ -16,7 +16,7 @@ https://star-wars-name-generator.web.app
 
 ### GitHub Repo:
 
-https://github.com/LuigiLegion/star-wars-name-generator
+https://github.com/luigilegion/star-wars-name-generator
 
 ### Description:
 
@@ -26,7 +26,7 @@ MVP completed in 4 days for a solo project.
 
 ### Tech Stack:
 
-Built using Node.js and Firebase on the backend, React, Redux, and Materialize.css on the frontend, and utilizes the Wikia API.
+Built using Node.js and Firebase on the backend, React, Redux, and Materialize on the frontend, and utilizes the Wikia API.
 
 ### Dev Team:
 

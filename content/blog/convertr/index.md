@@ -16,7 +16,7 @@ Coming soon...
 
 ### GitHub Repo:
 
-https://github.com/LuigiLegion/converter
+https://github.com/luigilegion/converter
 
 ### Description:
 
