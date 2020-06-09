@@ -14,9 +14,9 @@ Coming soon...
 
 https://meetup-tracker.herokuapp.com
 
-### GitHub Repo:
+### Source:
 
-https://github.com/LuigiLegion/meetup-tracker
+https://github.com/luigilegion/meetup-tracker
 
 ### Description:
 
@@ -26,7 +26,7 @@ MVP completed in 2 days for a solo project.
 
 ### Tech Stack:
 
-Built using Node.js, Express, PostgreSQL, and Sequelize on the backend, React, Redux, and Materialize.css on the frontend, and utilizes the Meetup API.
+Built using Node.js, Express, PostgreSQL, and Sequelize on the backend, React, Redux, and Materialize on the frontend, and utilizes the Meetup API.
 
 ### Dev Team:
 

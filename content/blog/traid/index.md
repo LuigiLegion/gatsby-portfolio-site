@@ -14,7 +14,7 @@ description: Responsive web app that allows users to offer and request aid from 
 
 https://tr-aid.web.app
 
-### GitHub Repository:
+### Source:
 
 https://github.com/equalithon-team-three
 
@@ -26,7 +26,7 @@ MVP completed using Agile methodologies in 7 days for the Essteem Hackathon for 
 
 ### Tech Stack:
 
-Built using Rails on the backend and React and Bootswatch on the frontend.
+Built using Ruby, Ruby on Rails, and Active Record on the backend and React and Bootswatch on the frontend.
 
 ### Dev Team:
 

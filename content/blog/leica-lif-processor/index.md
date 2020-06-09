@@ -10,9 +10,9 @@ description: Coming soon...
 
 Coming soon...
 
-### GitHub Repo:
+### Source:
 
-https://github.com/LuigiLegion/facultech
+https://github.com/luigilegion/facultech
 
 ### Description:
 

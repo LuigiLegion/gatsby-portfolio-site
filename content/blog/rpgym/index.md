@@ -14,7 +14,7 @@ description: NES themed web app that gamifies fitness. The app allows users to c
 
 https://rpgym.herokuapp.com
 
-### GitHub Repo:
+### Source:
 
 https://github.com/1904cs-golf-ibis/rpgym
 
@@ -26,11 +26,11 @@ MVP completed using Agile methodologies in 14 days for a group project.
 
 ### Tech Stack:
 
-Built using the NERDS stack and utilizes Socket.io and the Strava API.
+Built using Node.js, Express, PostgreSQL, and Sequelize on the backend, React, Redux, and NES.css on the frontend, and utilizes Socket.io and the Strava API.
 
 ### Dev Team:
 
 - Tal Luigi ([LinkedIn](https://www.linkedin.com/in/talluigi) | [GitHub](https://github.com/luigilegion))
 - Daniel Rivera ([LinkedIn](https://www.linkedin.com/in/daniel-rivera-) | [GitHub](https://github.com/driver620))
-- Arnald Wong ([LinkedIn](https://www.linkedin.com/in/arnald-wong) | [GitHub](https://github.com/ArnaldWong))
+- Arnald Wong ([LinkedIn](https://www.linkedin.com/in/arnald-wong) | [GitHub](https://github.com/arnaldwong))
 - Daphne Clyne ([LinkedIn](https://www.linkedin.com/in/daphne-c) | [GitHub](https://github.com/daphne178))
