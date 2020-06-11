@@ -2,8 +2,9 @@
 /* eslint-disable react/jsx-pascal-case */
 
 // Imports
-import React, { Component } from 'react';
+import React from 'react';
 import { Link, graphql } from 'gatsby';
+import PropTypes from 'prop-types';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -11,53 +12,50 @@ import Bio from '../components/bio';
 import { rhythm } from '../utils/typography';
 
 // Component
-class BlogIndex extends Component {
-  render() {
-    const { data } = this.props;
-    const siteTitle = data.site.siteMetadata.title;
-    const posts = data.allMarkdownRemark.edges;
+const BlogIndex = ({ data, location }) => {
+  const siteTitle = data.site.siteMetadata.title;
+  const posts = data.allMarkdownRemark.edges;
 
-    return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Tal Luigi" />
+  return (
+    <Layout location={location} title={siteTitle}>
+      <SEO title="Tal Luigi" />
 
-        <Bio />
+      <Bio />
 
-        <h3>Here are some of the projects I've worked on:</h3>
+      <h3>Here are some of the projects I've worked on:</h3>
 
-        {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug;
+      {posts.map(({ node }) => {
+        const title = node.frontmatter.title || node.fields.slug;
 
-          return (
-            <article key={node.fields.slug}>
-              <header>
-                <h3
-                  style={{
-                    marginBottom: rhythm(1 / 4),
-                  }}
-                >
-                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                    {title}
-                  </Link>
-                </h3>
+        return (
+          <article key={node.fields.slug}>
+            <header>
+              <h3
+                style={{
+                  marginBottom: rhythm(1 / 4),
+                }}
+              >
+                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                  {title}
+                </Link>
+              </h3>
 
-                <small>MVP Completion Date: {node.frontmatter.date}</small>
-              </header>
+              <small>MVP Completion Date: {node.frontmatter.date}</small>
+            </header>
 
-              <section>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
-                  }}
-                />
-              </section>
-            </article>
-          );
-        })}
-      </Layout>
-    );
-  }
-}
+            <section>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: node.frontmatter.description || node.excerpt,
+                }}
+              />
+            </section>
+          </article>
+        );
+      })}
+    </Layout>
+  );
+};
 
 // Query
 export const pageQuery = graphql`
@@ -84,5 +82,11 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+// Prop Types
+BlogIndex.propTypes = {
+  data: PropTypes.object,
+  location: PropTypes.object,
+};
 
 export default BlogIndex;
