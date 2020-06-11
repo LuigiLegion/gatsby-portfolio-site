@@ -14,7 +14,7 @@ const Bio = () => {
         marginBottom: rhythm(2.5),
       }}
     >
-      <div className="flex-containee social-media-container">
+      <div className="flex-containee social-media-container text-spacing-bottom-double">
         <a
           href="https://www.linkedin.com/in/talluigi"
           target="_blank"
@@ -68,38 +68,32 @@ const Bio = () => {
         </a>
       </div>
 
-      <br />
-      <br />
-
       <div className="flex-row-container">
         {/* <ProfileImage /> */}
 
         <div>
-          <div>
+          <div className="text-spacing-bottom">
             I'm a Software Engineer specializing in JavaScript and the NERDS
             stack, and I'm incredibly passionate about learning and mastering
             new technologies.
           </div>
 
-          <br />
-
           <div>
             <span className="text-style-bold">Proficient:</span> JavaScript,
-            React, Redux, Node.js, Express, PostgreSQL, Sequelize, Firebase,
-            CSS3, HTML5, Git, GitHub, Heroku, CI/CD
+            Node.js, Express, PostgreSQL, Sequelize, Firebase, GraphQL, React,
+            Redux, HTML5, CSS3, Git, GitHub, Heroku, Gatsby, Netlify, Travis CI,
+            CI/CD
           </div>
 
           <div>
-            <span className="text-style-bold">Knowledgeable:</span> GraphQL,
-            React Native, Socket.io, Webpack, TDD (Mocha, Chai, Jasmine)
+            <span className="text-style-bold">Knowledgeable:</span> React
+            Native, Socket.IO, TDD
           </div>
 
-          <div>
+          <div className="text-spacing-bottom">
             <span className="text-style-bold">Some Familiarity:</span> SQL,
-            MySQL
+            MySQL, SQLite
           </div>
-
-          <br />
 
           <div>
             I'm also a co-organizer of NYC Coders, a meetup group aimed at
@@ -109,8 +103,8 @@ const Bio = () => {
 
           <div>
             <Link to="/meetups" className="text-style-bold">
-              Check out
-            </Link>{' '}
+              Check out{' '}
+            </Link>
             our upcoming meetups if you're in the area.
           </div>
         </div>
