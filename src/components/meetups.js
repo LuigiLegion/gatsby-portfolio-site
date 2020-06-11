@@ -7,8 +7,8 @@ import moment from 'moment';
 import { rhythm, scale } from '../utils/typography';
 
 // Component
-const Meetups = ({ pageContext: { meetups } }) => {
-  const { results } = meetups[0].data;
+const Meetups = ({ pageContext }) => {
+  const { results } = pageContext.meetups[0].data;
 
   return (
     <div
