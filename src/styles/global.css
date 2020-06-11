@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 ul {
   list-style: none;
   margin-left: 0;
@@ -22,8 +26,24 @@ img {
   margin-bottom: 0;
 }
 
-a:hover {
-  text-decoration: underline;
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.text-style-bold {
+  font-weight: bold;
+}
+
+.text-spacing-bottom {
+  padding-bottom: 1em;
+}
+
+.text-spacing-bottom-double {
+  padding-bottom: 2em;
 }
 
 .flex-column-container {
@@ -53,18 +73,6 @@ a:hover {
   flex: 4;
 }
 
-.right {
-  text-align: right;
-}
-
-.left {
-  text-align: left;
-}
-
-.bold-text-style {
-  font-weight: bold;
-}
-
 .social-media-container {
   display: flex;
   flex-direction: row;
@@ -80,4 +88,8 @@ a:hover {
 
 .social-media-icon {
   padding: 0 15%;
+}
+
+.built-with {
+  white-space: pre;
 }

@@ -1,28 +1,29 @@
-import React, { Component } from 'react'
-import { graphql } from 'gatsby'
+/* eslint-disable react/jsx-pascal-case */
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+// Imports
+import React from 'react';
+import { graphql } from 'gatsby';
+import PropTypes from 'prop-types';
 
-class NotFoundPage extends Component {
-  render() {
-    const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
-    return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="404: Not Found" />
+// Component
+const NotFoundPage = ({ data, location }) => {
+  const siteTitle = data.site.siteMetadata.title;
 
-        <h1>Page Not Found</h1>
+  return (
+    <Layout location={location} title={siteTitle}>
+      <SEO title="404: Not Found" />
 
-        <p>This route does not exist.</p>
-      </Layout>
-    )
-  }
-}
+      <h1>Page Not Found</h1>
 
-export default NotFoundPage
+      <p>This route does not exist.</p>
+    </Layout>
+  );
+};
 
+// Query
 export const pageQuery = graphql`
   query {
     site {
@@ -31,4 +32,12 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
+
+// Prop Types
+NotFoundPage.propTypes = {
+  data: PropTypes.object,
+  location: PropTypes.object,
+};
+
+export default NotFoundPage;

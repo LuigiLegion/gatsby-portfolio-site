@@ -1,6 +1,6 @@
 ---
 title: Deimosy
-date: "2020-05-31T12:34:56.121Z"
+date: '2020-05-31T12:34:56.121Z'
 description: Named after the smaller and outermost of the two moons of the planet Mars, Deimosy is a pathfinding simulator web app for probes navigating the surface of Mars.
 ---
 

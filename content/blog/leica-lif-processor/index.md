@@ -1,6 +1,6 @@
 ---
 title: Leica LIF Processor
-date: "2019-09-29T12:34:56.121Z"
+date: '2019-09-29T12:34:56.121Z'
 description: Coming soon...
 ---
 

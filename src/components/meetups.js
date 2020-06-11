@@ -1,13 +1,14 @@
-import React, { Fragment } from 'react'
-import { Link } from 'gatsby'
-import moment from 'moment'
-import PropTypes from 'prop-types'
+// Imports
+import React, { Fragment } from 'react';
+import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
+import moment from 'moment';
 
-import { rhythm, scale } from '../utils/typography'
+import { rhythm, scale } from '../utils/typography';
 
-const AllMeetups = ({ pageContext: { allMeetups } }) => {
-  const allMeetupsData = allMeetups[0].data.results
-  // console.log('allMeetupsData: ', allMeetupsData)
+// Component
+const Meetups = ({ pageContext }) => {
+  const { results } = pageContext.meetups[0].data;
 
   return (
     <div
@@ -30,48 +31,48 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
       </h6>
 
       <ul
+        className="flex-column-container text-spacing-bottom"
         style={{
           textAlign: 'center',
           margin: 0,
         }}
-        className="flex-column-container"
       >
-        {allMeetupsData.length ? (
-          allMeetupsData.map(curMeetup => (
+        {results.length ? (
+          results.map(meetup => (
             <li
-              key={curMeetup.id}
+              key={meetup.id}
               className="flex-column-container flex-containee"
             >
-              <img src={curMeetup.photo_url} alt={curMeetup.name} />
+              <img src={meetup.photo_url} alt={meetup.name} />
 
-              <div>{curMeetup.name}</div>
+              <div className="text-style-bold">{meetup.name}</div>
 
-              {curMeetup.venue ? (
+              {meetup.venue && meetup.venue.address_1 ? (
                 <div>
-                  {curMeetup.venue.address_1}, {curMeetup.venue.city}
+                  {meetup.venue.address_1}, {meetup.venue.city}
                 </div>
               ) : (
-                <div>11 Bond St, New York, NY</div>
+                <div>Location TBD</div>
               )}
 
               <div>
-                <div title={moment(curMeetup.time).format('LLLL')}>
-                  Takes place {moment(curMeetup.time).fromNow()}
+                <div title={moment(meetup.time).format('LLLL')}>
+                  Takes place {moment(meetup.time).fromNow()}
                 </div>
 
                 <a
-                  href={curMeetup.event_url}
+                  href={meetup.event_url}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <span>
-                    {curMeetup.rsvp_limit ? (
+                    {meetup.rsvp_limit ? (
                       <span>
-                        RSVP ({curMeetup.yes_rsvp_count}/{curMeetup.rsvp_limit}{' '}
+                        RSVP ({meetup.yes_rsvp_count}/{meetup.rsvp_limit}{' '}
                         Attending)
                       </span>
                     ) : (
-                      <span>RSVP ({curMeetup.yes_rsvp_count} Attending)</span>
+                      <span>RSVP ({meetup.yes_rsvp_count} Attending)</span>
                     )}
                   </span>
                 </a>
@@ -91,15 +92,14 @@ const AllMeetups = ({ pageContext: { allMeetups } }) => {
         )}
       </ul>
 
-      <br />
-
       <Link to="/">← Back</Link>
     </div>
-  )
-}
+  );
+};
 
-AllMeetups.propTypes = {
+// Prop Types
+Meetups.propTypes = {
   pageContext: PropTypes.object,
-}
+};
 
-export default AllMeetups
+export default Meetups;

@@ -1,6 +1,6 @@
 ---
 title: Elevate
-date: "2019-08-16T12:34:56.121Z"
+date: '2019-08-16T12:34:56.121Z'
 description: Responsive web app that connects women in entry to mid-level tech roles with executives across various industries through inclusive reverse mentoring.
 ---
 

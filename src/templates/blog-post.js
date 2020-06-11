@@ -1,97 +1,100 @@
-import React, { Component } from 'react'
-import { Link, graphql } from 'gatsby'
+/* eslint-disable react/no-danger */
+/* eslint-disable react/jsx-pascal-case */
 
-import { rhythm, scale } from '../utils/typography'
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+// Imports
+import React from 'react';
+import { Link, graphql } from 'gatsby';
+import PropTypes from 'prop-types';
 
-class BlogPostTemplate extends Component {
-  render() {
-    const post = this.props.data.markdownRemark
-    const siteTitle = this.props.data.site.siteMetadata.title
-    const { previous, next } = this.props.pageContext
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import { rhythm, scale } from '../utils/typography';
 
-    return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO
-          title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
-        />
+// Component
+const BlogPostTemplate = ({ data, pageContext, location }) => {
+  const siteTitle = data.site.siteMetadata.title;
+  const post = data.markdownRemark;
+  const { previous, next } = pageContext;
 
-        <article>
-          <header>
-            <div className="flex-row-container">
-              <h1
-                className="flex-large-containee"
-                style={{
-                  marginTop: rhythm(1),
-                  marginBottom: 0,
-                }}
-              >
-                {post.frontmatter.title}
-              </h1>
+  return (
+    <Layout location={location} title={siteTitle}>
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description || post.excerpt}
+      />
 
-              <div className="flex-containee right">
-                <Link to="/">← Back</Link>
-              </div>
-            </div>
-
-            <p
+      <article>
+        <header>
+          <div className="flex-row-container">
+            <h1
+              className="flex-large-containee"
               style={{
-                ...scale(-1 / 5),
-                display: `block`,
-                marginBottom: rhythm(1),
+                marginTop: rhythm(1),
+                marginBottom: 0,
               }}
             >
-              MVP Completion Date: {post.frontmatter.date}
-            </p>
-          </header>
+              {post.frontmatter.title}
+            </h1>
 
-          <section dangerouslySetInnerHTML={{ __html: post.html }} />
+            <div className="flex-containee right">
+              <Link to="/">← Back</Link>
+            </div>
+          </div>
 
-          <hr
+          <p
             style={{
+              ...scale(-1 / 5),
+              display: `block`,
               marginBottom: rhythm(1),
             }}
-          />
-
-          <footer />
-        </article>
-
-        <nav>
-          <ul
-            style={{
-              display: `flex`,
-              flexWrap: `wrap`,
-              justifyContent: `space-between`,
-              listStyle: `none`,
-              padding: 0,
-            }}
           >
-            <li>
-              {previous && (
-                <Link to={previous.fields.slug} rel="prev">
-                  ← {previous.frontmatter.title}
-                </Link>
-              )}
-            </li>
+            MVP Completion Date: {post.frontmatter.date}
+          </p>
+        </header>
 
-            <li>
-              {next && (
-                <Link to={next.fields.slug} rel="next">
-                  {next.frontmatter.title} →
-                </Link>
-              )}
-            </li>
-          </ul>
-        </nav>
-      </Layout>
-    )
-  }
-}
+        <section dangerouslySetInnerHTML={{ __html: post.html }} />
 
-export default BlogPostTemplate
+        <hr
+          style={{
+            marginBottom: rhythm(1),
+          }}
+        />
 
+        <footer />
+      </article>
+
+      <nav>
+        <ul
+          style={{
+            display: `flex`,
+            flexWrap: `wrap`,
+            justifyContent: `space-between`,
+            listStyle: `none`,
+            padding: 0,
+          }}
+        >
+          <li>
+            {previous && (
+              <Link to={previous.fields.slug} rel="prev">
+                ← {previous.frontmatter.title}
+              </Link>
+            )}
+          </li>
+
+          <li>
+            {next && (
+              <Link to={next.fields.slug} rel="next">
+                {next.frontmatter.title} →
+              </Link>
+            )}
+          </li>
+        </ul>
+      </nav>
+    </Layout>
+  );
+};
+
+// Query
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
     site {
@@ -111,4 +114,13 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
+
+// Prop Types
+BlogPostTemplate.propTypes = {
+  data: PropTypes.object,
+  pageContext: PropTypes.object,
+  location: PropTypes.object,
+};
+
+export default BlogPostTemplate;

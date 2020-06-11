@@ -1,41 +1,12 @@
-/**
- * Bio component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
+// Imports
+import React from 'react';
+import { Link } from 'gatsby';
 
-import React from 'react'
-import { Link } from 'gatsby'
-// import { useStaticQuery, graphql, Link } from 'gatsby'
-// import Image from 'gatsby-image'
+// import ProfileImage from './profile-image';
+import { rhythm } from '../utils/typography';
 
-import { rhythm } from '../utils/typography'
-
+// Component
 const Bio = () => {
-  // const data = useStaticQuery(graphql`
-  //   query BioQuery {
-  //     avatar: file(absolutePath: { regex: "/profile-pic.png/" }) {
-  //       childImageSharp {
-  //         fixed(width: 50, height: 50) {
-  //           ...GatsbyImageSharpFixed
-  //         }
-  //       }
-  //     }
-  //     site {
-  //       siteMetadata {
-  //         author
-  //         social {
-  //           twitter
-  //         }
-  //       }
-  //     }
-  //   }
-  // `)
-
-  // const { author, social } = data.site.siteMetadata;
-  // const { author } = data.site.siteMetadata
-
   return (
     <div
       className="flex-column-container"
@@ -43,7 +14,7 @@ const Bio = () => {
         marginBottom: rhythm(2.5),
       }}
     >
-      <div className="flex-containee social-media-container">
+      <div className="flex-containee social-media-container text-spacing-bottom-double">
         <a
           href="https://www.linkedin.com/in/talluigi"
           target="_blank"
@@ -97,50 +68,32 @@ const Bio = () => {
         </a>
       </div>
 
-      <br />
-      <br />
-
       <div className="flex-row-container">
-        {/* <Image
-          fixed={data.avatar.childImageSharp.fixed}
-          alt={author}
-          style={{
-            marginRight: rhythm(1 / 2),
-            marginBottom: 0,
-            minWidth: 50,
-            borderRadius: `100%`,
-          }}
-          imgStyle={{
-            borderRadius: `50%`,
-          }}
-        /> */}
+        {/* <ProfileImage /> */}
 
         <div>
-          <div>
+          <div className="text-spacing-bottom">
             I'm a Software Engineer specializing in JavaScript and the NERDS
             stack, and I'm incredibly passionate about learning and mastering
             new technologies.
           </div>
 
-          <br />
-
           <div>
-            <span className="bold-text-style">Proficient:</span> JavaScript,
-            React, Redux, Node.js, Express, PostgreSQL, Sequelize, Firebase,
-            CSS3, HTML5, Git, GitHub, Heroku, CI/CD
+            <span className="text-style-bold">Proficient:</span> JavaScript,
+            Node.js, Express, PostgreSQL, Sequelize, Firebase, GraphQL, React,
+            Redux, HTML5, CSS3, Git, GitHub, Heroku, Gatsby, Netlify, Travis CI,
+            CI/CD
           </div>
 
           <div>
-            <span className="bold-text-style">Knowledgeable:</span> GraphQL,
-            React Native, Socket.io, Webpack, TDD (Mocha, Chai, Jasmine)
+            <span className="text-style-bold">Knowledgeable:</span> React
+            Native, Socket.IO, TDD
           </div>
 
-          <div>
-            <span className="bold-text-style">Some Familiarity:</span> SQL,
-            MySQL
+          <div className="text-spacing-bottom">
+            <span className="text-style-bold">Some Familiarity:</span> SQL,
+            MySQL, SQLite
           </div>
-
-          <br />
 
           <div>
             I'm also a co-organizer of NYC Coders, a meetup group aimed at
@@ -149,15 +102,15 @@ const Bio = () => {
           </div>
 
           <div>
-            <Link to="/meetups" className="bold-text-style">
-              Check out
-            </Link>{' '}
+            <Link to="/meetups" className="text-style-bold">
+              Check out{' '}
+            </Link>
             our upcoming meetups if you're in the area.
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Bio
+export default Bio;

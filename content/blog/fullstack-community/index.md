@@ -1,6 +1,6 @@
 ---
 title: Fullstack Community
-date: "2019-06-23T12:34:56.121Z"
+date: '2019-06-23T12:34:56.121Z'
 description: Fullstack Academy themed responsive web app that connects past and present Fullstack students for networking purposes. The app allows current students and job seeking alums to form study groups, work on projects, practice algorithms, and assist in job search.
 ---
 
