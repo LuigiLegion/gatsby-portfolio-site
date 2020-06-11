@@ -1,6 +1,6 @@
 ---
 title: Traid
-date: "2020-04-04T12:34:56.121Z"
+date: '2020-04-04T12:34:56.121Z'
 description: Responsive web app that allows users to offer and request aid from others in their community.
 ---
 
