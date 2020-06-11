@@ -68,9 +68,8 @@ const Layout = ({ location, title, children }) => {
 
       <main>{children}</main>
 
-      <footer className="flex-row-container">
-        © {new Date().getFullYear()}, Built with
-        <span style={{ color: '#eee' }}>.</span>
+      <footer className="flex-row-container built-with">
+        {`© ${new Date().getFullYear()}, Built with `}
         <div className="flex-medium-containee left">
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </div>
