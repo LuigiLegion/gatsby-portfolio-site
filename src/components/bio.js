@@ -5,13 +5,15 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from 'react'
-import { Link } from 'gatsby'
+// Imports
+import React from 'react';
+import { Link } from 'gatsby';
 // import { useStaticQuery, graphql, Link } from 'gatsby'
 // import Image from 'gatsby-image'
 
-import { rhythm } from '../utils/typography'
+import { rhythm } from '../utils/typography';
 
+// Component
 const Bio = () => {
   // const data = useStaticQuery(graphql`
   //   query BioQuery {
@@ -125,18 +127,18 @@ const Bio = () => {
           <br />
 
           <div>
-            <span className="bold-text-style">Proficient:</span> JavaScript,
+            <span className="text-style-bold">Proficient:</span> JavaScript,
             React, Redux, Node.js, Express, PostgreSQL, Sequelize, Firebase,
             CSS3, HTML5, Git, GitHub, Heroku, CI/CD
           </div>
 
           <div>
-            <span className="bold-text-style">Knowledgeable:</span> GraphQL,
+            <span className="text-style-bold">Knowledgeable:</span> GraphQL,
             React Native, Socket.io, Webpack, TDD (Mocha, Chai, Jasmine)
           </div>
 
           <div>
-            <span className="bold-text-style">Some Familiarity:</span> SQL,
+            <span className="text-style-bold">Some Familiarity:</span> SQL,
             MySQL
           </div>
 
@@ -149,7 +151,7 @@ const Bio = () => {
           </div>
 
           <div>
-            <Link to="/meetups" className="bold-text-style">
+            <Link to="/meetups" className="text-style-bold">
               Check out
             </Link>{' '}
             our upcoming meetups if you're in the area.
@@ -157,7 +159,7 @@ const Bio = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Bio
+export default Bio;

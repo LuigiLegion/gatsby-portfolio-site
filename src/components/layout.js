@@ -1,13 +1,17 @@
-import React, { Component } from 'react'
-import { Link } from 'gatsby'
+/* eslint-disable no-undef */
 
-import { rhythm, scale } from '../utils/typography'
+// Imports
+import React, { Component } from 'react';
+import { Link } from 'gatsby';
 
+import { rhythm, scale } from '../utils/typography';
+
+// Component
 class Layout extends Component {
   render() {
-    const { location, title, children } = this.props
-    const rootPath = `${__PATH_PREFIX__}/`
-    let header
+    const { location, title, children } = this.props;
+    const rootPath = `${__PATH_PREFIX__}/`;
+    let header;
 
     if (location.pathname === rootPath) {
       header = (
@@ -29,7 +33,7 @@ class Layout extends Component {
             {title}
           </Link>
         </h1>
-      )
+      );
     } else {
       header = (
         <h3
@@ -49,7 +53,7 @@ class Layout extends Component {
             {title}
           </Link>
         </h3>
-      )
+      );
     }
 
     return (
@@ -78,8 +82,8 @@ class Layout extends Component {
           ) : null}
         </footer>
       </div>
-    )
+    );
   }
 }
 
-export default Layout
+export default Layout;

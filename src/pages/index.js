@@ -1,16 +1,21 @@
-import React, { Component } from "react"
-import { Link, graphql } from "gatsby"
+/* eslint-disable react/no-danger */
+/* eslint-disable react/jsx-pascal-case */
 
-import { rhythm } from "../utils/typography"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Bio from "../components/bio"
+// Imports
+import React, { Component } from 'react';
+import { Link, graphql } from 'gatsby';
 
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import Bio from '../components/bio';
+import { rhythm } from '../utils/typography';
+
+// Component
 class BlogIndex extends Component {
   render() {
-    const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
+    const { data } = this.props;
+    const siteTitle = data.site.siteMetadata.title;
+    const posts = data.allMarkdownRemark.edges;
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -19,8 +24,10 @@ class BlogIndex extends Component {
         <Bio />
 
         <h3>Here are some of the projects I've worked on:</h3>
+
         {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
+          const title = node.frontmatter.title || node.fields.slug;
+
           return (
             <article key={node.fields.slug}>
               <header>
@@ -45,15 +52,14 @@ class BlogIndex extends Component {
                 />
               </section>
             </article>
-          )
+          );
         })}
       </Layout>
-    )
+    );
   }
 }
 
-export default BlogIndex
-
+// Query
 export const pageQuery = graphql`
   query {
     site {
@@ -77,4 +83,6 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
+
+export default BlogIndex;

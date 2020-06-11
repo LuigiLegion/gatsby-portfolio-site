@@ -1,3 +1,4 @@
+// Exports
 module.exports = {
   siteMetadata: {
     title: `Hi there, I'm Tal.`,
@@ -35,7 +36,7 @@ module.exports = {
               width: 800,
               ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
               height: 400, // Optional: Overrides optional.ratio
-              related: false, // Optional: Will remove related videos from the end of an embedded YouTube video.
+              related: false, // Optional: Will remove related videos from the end of an embedded YouTube video
               noIframeBorder: true, // Optional: Disable insertion of <style> border: 0
             },
           },
@@ -62,7 +63,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
     `gatsby-plugin-feed`,
@@ -87,4 +88,4 @@ module.exports = {
       },
     },
   ],
-}
+};

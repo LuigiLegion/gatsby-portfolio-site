@@ -1,15 +1,20 @@
-import React, { Component } from 'react'
-import { Link, graphql } from 'gatsby'
+/* eslint-disable react/no-danger */
+/* eslint-disable react/jsx-pascal-case */
 
-import { rhythm, scale } from '../utils/typography'
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+// Imports
+import React, { Component } from 'react';
+import { Link, graphql } from 'gatsby';
 
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import { rhythm, scale } from '../utils/typography';
+
+// Component
 class BlogPostTemplate extends Component {
   render() {
-    const post = this.props.data.markdownRemark
-    const siteTitle = this.props.data.site.siteMetadata.title
-    const { previous, next } = this.props.pageContext
+    const post = this.props.data.markdownRemark;
+    const siteTitle = this.props.data.site.siteMetadata.title;
+    const { previous, next } = this.props.pageContext;
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -86,12 +91,11 @@ class BlogPostTemplate extends Component {
           </ul>
         </nav>
       </Layout>
-    )
+    );
   }
 }
 
-export default BlogPostTemplate
-
+// Query
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
     site {
@@ -111,4 +115,6 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
+
+export default BlogPostTemplate;
