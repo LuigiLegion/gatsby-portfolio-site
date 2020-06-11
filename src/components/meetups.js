@@ -31,11 +31,11 @@ const Meetups = ({ pageContext }) => {
       </h6>
 
       <ul
+        className="flex-column-container text-spacing-bottom"
         style={{
           textAlign: 'center',
           margin: 0,
         }}
-        className="flex-column-container"
       >
         {results.length ? (
           results.map(meetup => (
@@ -45,7 +45,7 @@ const Meetups = ({ pageContext }) => {
             >
               <img src={meetup.photo_url} alt={meetup.name} />
 
-              <div>{meetup.name}</div>
+              <div className="text-style-bold">{meetup.name}</div>
 
               {meetup.venue && meetup.venue.address_1 ? (
                 <div>
@@ -91,8 +91,6 @@ const Meetups = ({ pageContext }) => {
           </Fragment>
         )}
       </ul>
-
-      <br />
 
       <Link to="/">← Back</Link>
     </div>
