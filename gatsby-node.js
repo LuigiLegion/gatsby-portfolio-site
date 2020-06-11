@@ -1,25 +1,27 @@
-const path = require('path')
-const { createFilePath } = require('gatsby-source-filesystem')
-const axios = require('axios')
+// Imports
+const axios = require('axios');
+const path = require('path');
+const { createFilePath } = require('gatsby-source-filesystem');
 
+// Initializations
 const getMeetups = meetupGroupId =>
   axios.get(
-    `https://api.meetup.com/2/events?&sign=true&photo-host=public&group_id=${meetupGroupId}&page=20`
-  )
+    `https://api.meetup.com/2/events?&sign=true&photo-host=public&group_id=${meetupGroupId}&page=5`
+  );
 
 const getMeetupGroupsEventsData = meetupGroups =>
-  // eslint-disable-next-line no-undef
   Promise.all(
-    meetupGroups.map(async curMeetupGroup => {
-      const { data } = await getMeetups(curMeetupGroup)
-      return { data }
+    meetupGroups.map(async meetupGroup => {
+      const { data } = await getMeetups(meetupGroup);
+      return { data };
     })
-  )
+  );
 
+// Exports
 exports.createPages = async ({ graphql, actions }) => {
-  const { createPage } = actions
+  const { createPage } = actions;
 
-  const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const blogPost = path.resolve(`./src/templates/blog-post.js`);
   const result = await graphql(
     `
       {
@@ -40,18 +42,18 @@ exports.createPages = async ({ graphql, actions }) => {
         }
       }
     `
-  )
+  );
 
   if (result.errors) {
-    throw result.errors
+    throw result.errors;
   }
 
-  // Create blog posts pages.
-  const posts = result.data.allMarkdownRemark.edges
+  // Create blog posts pages
+  const posts = result.data.allMarkdownRemark.edges;
 
   posts.forEach((post, index) => {
-    const previous = index === posts.length - 1 ? null : posts[index + 1].node
-    const next = index === 0 ? null : posts[index - 1].node
+    const previous = index === posts.length - 1 ? null : posts[index + 1].node;
+    const next = index === 0 ? null : posts[index - 1].node;
 
     createPage({
       path: post.node.fields.slug,
@@ -61,28 +63,29 @@ exports.createPages = async ({ graphql, actions }) => {
         previous,
         next,
       },
-    })
-  })
+    });
+  });
 
   // Create all meetups page
-  const allMeetups = await getMeetupGroupsEventsData(['31377401'])
+  const meetups = await getMeetupGroupsEventsData([`31377401`]);
 
   createPage({
-    path: '/meetups',
-    component: require.resolve('./src/components/meetups.js'),
-    context: { allMeetups },
-  })
-}
+    path: `/meetups`,
+    component: require.resolve(`./src/components/meetups.js`),
+    context: { meetups },
+  });
+};
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
+  const { createNodeField } = actions;
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+    const value = createFilePath({ node, getNode });
+
     createNodeField({
       name: `slug`,
       node,
       value,
-    })
+    });
   }
-}
+};
