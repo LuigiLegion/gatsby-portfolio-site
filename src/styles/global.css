@@ -38,6 +38,14 @@ img {
   font-weight: bold;
 }
 
+.text-spacing-bottom {
+  padding-bottom: 1em;
+}
+
+.text-spacing-bottom-double {
+  padding-bottom: 2em;
+}
+
 .flex-column-container {
   display: flex;
   flex-direction: column;
@@ -80,4 +88,8 @@ img {
 
 .social-media-icon {
   padding: 0 15%;
+}
+
+.built-with {
+  white-space: pre;
 }
