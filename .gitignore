@@ -17,7 +17,7 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
-# nyc test coverage
+# Nyc test coverage
 .nyc_output
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
@@ -51,10 +51,10 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
-# dotenv environment variables file
+# Dotenv environment variables file
 .env
 
-# gatsby files
+# Gatsby files
 .cache/
 public
 
@@ -65,5 +65,6 @@ public
 yarn-error.log
 .pnp/
 .pnp.js
+
 # Yarn Integrity file
 .yarn-integrity
