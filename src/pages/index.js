@@ -89,4 +89,5 @@ BlogIndex.propTypes = {
   location: PropTypes.object,
 };
 
+// Exports
 export default BlogIndex;

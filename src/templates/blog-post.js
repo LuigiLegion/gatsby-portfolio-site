@@ -123,4 +123,5 @@ BlogPostTemplate.propTypes = {
   location: PropTypes.object,
 };
 
+// Exports
 export default BlogPostTemplate;

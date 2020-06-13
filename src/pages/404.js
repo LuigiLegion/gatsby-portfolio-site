@@ -40,4 +40,5 @@ NotFoundPage.propTypes = {
   location: PropTypes.object,
 };
 
+// Exports
 export default NotFoundPage;

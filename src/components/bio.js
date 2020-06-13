@@ -113,4 +113,5 @@ const Bio = () => {
   );
 };
 
+// Exports
 export default Bio;
