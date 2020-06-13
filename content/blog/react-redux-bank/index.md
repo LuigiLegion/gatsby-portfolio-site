@@ -26,7 +26,7 @@ MVP completed in 2 days for a code-along.
 
 ### Tech Stack:
 
-Built using React, Redux, and React-Redux, and utilizes the Free Forex API.
+Built using React, Redux, and React-Redux, and utilizes localStorage and the Free Forex API.
 
 ### Dev Team:
 

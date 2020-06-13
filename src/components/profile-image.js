@@ -50,4 +50,5 @@ const ProfileImage = () => {
   );
 };
 
+// Exports
 export default ProfileImage;

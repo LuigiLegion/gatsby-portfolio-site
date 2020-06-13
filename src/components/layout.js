@@ -90,4 +90,5 @@ Layout.propTypes = {
   children: PropTypes.array,
 };
 
+// Exports
 export default Layout;
