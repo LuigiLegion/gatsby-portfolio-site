@@ -2,7 +2,7 @@
   "name": "gatsby-portfolio-site",
   "version": "1.0.0",
   "description": "",
-  "private": false,
+  "private": true,
   "author": "Tal Luigi",
   "license": "MIT",
   "bugs": {
