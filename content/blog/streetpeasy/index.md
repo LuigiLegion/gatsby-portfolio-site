@@ -1,7 +1,7 @@
 ---
 title: StreetPeasy
 date: '2020-07-04T12:34:56.121Z'
-description: Browser extension that retrieves data regarding the description, amenities, and highlights of a specific listing on StreetEasy.com, parses it, and checks it against a predetermined checklist, at the end of which the borders of the page of said listing will be colored green if it checks all of the necessary boxes or red if it does not.
+description: Browser extension that retrieves data regarding the description, highlights, and amenities of a given listing on StreetEasy.com, parses it, and checks it against a predetermined checklist.
 ---
 
 ![StreetPeasy Screenshot](./streetpeasy.png)
@@ -20,7 +20,7 @@ https://github.com/luigilegion/streetpeasy
 
 ### Description:
 
-Browser extension that retrieves data regarding the description, amenities, and highlights of a specific listing on [StreetEasy.com](https://streeteasy.com), parses it, and checks it against a predetermined checklist, at the end of which the borders of the page of said listing will be colored green if it checks all of the necessary boxes or red if it does not.
+Browser extension that retrieves data regarding the description, highlights, and amenities of a given listing on [StreetEasy.com](https://streeteasy.com), parses it, and checks it against a predetermined checklist.
 
 MVP completed in 1 day for a solo project.
 
