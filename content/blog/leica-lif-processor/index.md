@@ -1,7 +1,7 @@
 ---
 title: Leica LIF Processor
 date: '2019-09-29T12:34:56.121Z'
-description: Coming soon...
+description: ImageJ macro that allows users to take a z-stack of .lif files from a Leica SP8 Conofocal Microscope and transform it into a z-projection (e.g. Min Intensity, Max Intensity) with channel split .tiff files. Users can also subtract background, use a filter (e.g. Sigma, Gaussian), and choose the output file path. After running the macro, a user gets the selected projections in each channel separately with little to no processing on their part.
 ---
 
 ![Leica LIF Processor Screenshot](./leica-lif-processor.png)
@@ -12,17 +12,17 @@ Coming soon...
 
 ### Source:
 
-https://github.com/luigilegion/facultech
+https://github.com/facultech/leica-lif-processor
 
 ### Description:
 
-Coming soon...
+ImageJ macro that allows users to take a z-stack of .lif files from a Leica SP8 Conofocal Microscope and transform it into a z-projection (e.g. Min Intensity, Max Intensity) with channel split .tiff files. Users can also subtract background, use a filter (e.g. Sigma, Gaussian), and choose the output file path. After running the macro, a user gets the selected projections in each channel separately with little to no processing on their part.
 
 MVP completed in 2 days as part of an image analysis automation project for the Hebrew University of Jerusalem's Interdepartmental Equipment Unit.
 
 ### Tech Stack:
 
-Coming soon...
+Built using Vanilla JavaScript.
 
 ### Dev Team:
 
