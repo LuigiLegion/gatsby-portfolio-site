@@ -101,11 +101,14 @@ const Bio = () => {
             collaborate and build community.
           </div>
 
-          <div>
+          <div className="white-space-pre">
             <Link to="/meetups" className="text-style-bold">
-              Check out{' '}
+              {'Check out '}
             </Link>
-            our upcoming meetups if you're in the area.
+
+            <span>
+              our upcoming meetups if you're in the area.
+            </span>
           </div>
         </div>
       </div>
