@@ -68,11 +68,13 @@ const Layout = ({ location, title, children }) => {
 
       <main>{children}</main>
 
-      <footer className="flex-row-container built-with">
+      <footer className="flex-row-container white-space-pre">
         {`© ${new Date().getFullYear()}, Built with `}
+
         <div className="flex-medium-containee left">
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </div>
+
         {location.pathname !== rootPath ? (
           <div className="flex-containee right">
             <Link to="/">← Back</Link>
