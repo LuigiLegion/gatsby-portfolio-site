@@ -20,7 +20,7 @@ https://github.com/luigilegion/gitness-tracker
 
 ### Description:
 
-Responsive web app that helps open source project maintainers hold friendly code contribution competitions by allowing them to determine who contributed the most code over a given period of time. Contributions are pulled from GitHub using their GraphQL API and presented in the form of an organization, team, or user leaderboard.
+Responsive web app that helps open source project maintainers hold friendly code contribution competitions by allowing them to determine who contributed the most code over a given period of time by total number of public commits. Contributions are pulled from GitHub using their GraphQL API and presented in the form of an organization, team, or user leaderboard.
 
 MVP completed in 4 days for a solo project.
 
