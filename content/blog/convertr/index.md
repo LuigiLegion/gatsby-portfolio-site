@@ -6,28 +6,28 @@ description: Native app that allows users to convert temperature, mass, length, 
 
 ![Convertr Screenshot](../convertr/convertr.png)
 
-### Video Presentation:
+### Video Presentation
 
 Coming soon...
 
-### Deployed Native App:
+### Deployed Native App
 
 Coming soon...
 
-### Source:
+### Source
 
-https://github.com/luigilegion/converter
+<https://github.com/luigilegion/converter>
 
-### Description:
+### Description
 
 Native app that allows users to convert temperature, mass, length, and currency units.
 
 MVP completed in 2 days for a solo project.
 
-### Tech Stack:
+### Tech Stack
 
 Built using React Native and utilizes the Free Forex API.
 
-### Dev Team:
+### Dev Team
 
 - Tal Luigi ([LinkedIn](https://www.linkedin.com/in/talluigi) | [GitHub](https://github.com/luigilegion))
