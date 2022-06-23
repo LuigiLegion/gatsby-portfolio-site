@@ -6,29 +6,29 @@ description: Responsive web app that connects women in entry to mid-level tech r
 
 ![Elevate Screenshot](./elevate.png)
 
-### Video Presentation:
+### Video Presentation
 
 `video: https://www.youtube.com/watch?v=BuI-knrxfHU`
 
-### Deployed Web App:
+### Deployed Web App
 
-https://elevateus.herokuapp.com
+<https://elevateus.herokuapp.com>
 
-### Source:
+### Source
 
-https://github.com/equalithon-rm/reversementoring
+<https://github.com/equalithon-rm/reversementoring>
 
-### Description:
+### Description
 
 Responsive web app that connects women in entry to mid-level tech roles with executives across various industries through inclusive reverse mentoring.
 
 MVP completed using Agile methodologies in 14 days for the Essteem Hackathon for Gender Equality sponsored by Nasdaq and Capital One, [in which it won first place](https://www.equalithon.io/past-challenges/project-one-6dt56).
 
-### Tech Stack:
+### Tech Stack
 
 Built using Node.js, Express, PostgreSQL, and Sequelize on the backend, React, Redux, and Bulma on the frontend, and utilizes Nodemailer and Calendly.
 
-### Dev Team:
+### Dev Team
 
 - Tal Luigi ([LinkedIn](https://www.linkedin.com/in/talluigi) | [GitHub](https://github.com/luigilegion))
 - Sam Peach ([LinkedIn](https://www.linkedin.com/in/sam-peach) | [GitHub](https://github.com/sam-peach))
