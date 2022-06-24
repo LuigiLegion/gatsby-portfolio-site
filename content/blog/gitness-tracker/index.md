@@ -6,28 +6,28 @@ description: Responsive web app that helps open source project maintainers hold 
 
 ![Gitness Tracker Screenshot](./gitness-tracker.png)
 
-### Video Presentation:
+### Video Presentation
 
 Coming soon...
 
-### Deployed Web App:
+### Deployed Web App
 
-https://gitness-tracker.web.app
+<https://gitness-tracker.web.app>
 
-### Source:
+### Source
 
-https://github.com/luigilegion/gitness-tracker
+<https://github.com/luigilegion/gitness-tracker>
 
-### Description:
+### Description
 
 Responsive web app that helps open source project maintainers hold friendly code contribution competitions by allowing them to determine who contributed the most code over a given period of time by total number of public commits. Contributions are pulled from GitHub using their GraphQL API and presented in the form of an organization, team, or user leaderboard.
 
 MVP completed in 4 days for a solo project.
 
-### Tech Stack:
+### Tech Stack
 
 Built using React, Redux, and Materialize, and utilizes the GitHub GraphQL API.
 
-### Dev Team:
+### Dev Team
 
 - Tal Luigi ([LinkedIn](https://www.linkedin.com/in/talluigi) | [GitHub](https://github.com/luigilegion))
