@@ -6,29 +6,29 @@ description: NES themed web app that gamifies fitness. The app allows users to c
 
 ![RPGym Screenshot](../rpgym/rpgym.png)
 
-### Video Presentation:
+### Video Presentation
 
 `video: https://m.youtube.com/watch?v=_LZ8R1KoTeQ`
 
-### Deployed Web App:
+### Deployed Web App
 
-https://rpgym.herokuapp.com
+<https://rpgym.herokuapp.com>
 
-### Source:
+### Source
 
-https://github.com/1904cs-golf-ibis/rpgym
+<https://github.com/1904cs-golf-ibis/rpgym>
 
-### Description:
+### Description
 
 NES themed web app that gamifies fitness. The app allows users to create avatars based on the workout statistics recorded on their Strava accounts, and use them to battle one another. Strava is a free workout tracking app.
 
 MVP completed using Agile methodologies in 14 days for a group project.
 
-### Tech Stack:
+### Tech Stack
 
 Built using Node.js, Express, PostgreSQL, and Sequelize on the backend, React, Redux, and NES.css on the frontend, and utilizes Socket.io and the Strava API.
 
-### Dev Team:
+### Dev Team
 
 - Tal Luigi ([LinkedIn](https://www.linkedin.com/in/talluigi) | [GitHub](https://github.com/luigilegion))
 - Daniel Rivera ([LinkedIn](https://www.linkedin.com/in/daniel-rivera-) | [GitHub](https://github.com/driver620))
