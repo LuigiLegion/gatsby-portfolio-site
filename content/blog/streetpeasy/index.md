@@ -6,28 +6,28 @@ description: Browser extension that retrieves data regarding the description, hi
 
 ![StreetPeasy Screenshot](./streetpeasy.png)
 
-### Video Presentation:
+### Video Presentation
 
 Coming soon...
 
-### Published Browser Extension:
+### Published Browser Extension
 
 Coming soon...
 
-### Source:
+### Source
 
-https://github.com/luigilegion/streetpeasy
+<https://github.com/luigilegion/streetpeasy>
 
-### Description:
+### Description
 
 Browser extension that retrieves data regarding the description, highlights, and amenities of a given listing on [StreetEasy.com](https://streeteasy.com), parses it, and checks it against a predetermined checklist.
 
 MVP completed in a day for a solo project.
 
-### Tech Stack:
+### Tech Stack
 
 Built using Vanilla JavaScript, HTML, and CSS.
 
-### Dev Team:
+### Dev Team
 
 - Tal Luigi ([LinkedIn](https://www.linkedin.com/in/talluigi) | [GitHub](https://github.com/luigilegion))
