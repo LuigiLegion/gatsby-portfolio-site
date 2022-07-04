@@ -6,29 +6,29 @@ description: Responsive web app that allows users to offer and request aid from 
 
 ![Traid Screenshot](./traid.png)
 
-### Video Presentation:
+### Video Presentation
 
 `video: https://www.youtube.com/watch?v=_QVQUhjbVqs`
 
-### Deployed Web App:
+### Deployed Web App
 
-https://tr-aid.web.app
+<https://tr-aid.web.app>
 
-### Source:
+### Source
 
-https://github.com/equalithon-team-three
+<https://github.com/equalithon-team-three>
 
-### Description:
+### Description
 
 Responsive web app that allows users to offer and request aid from others in their community.
 
 MVP completed using Agile methodologies in 7 days for the Essteem Hackathon for COVID-19 Relief sponsored by Girls Who Code, [in which it won first place](https://www.equalithon.io/past-challenges/traid).
 
-### Tech Stack:
+### Tech Stack
 
 Built using Ruby, Ruby on Rails, and Active Record on the backend and React and Bootswatch on the frontend.
 
-### Dev Team:
+### Dev Team
 
 - Tal Luigi ([LinkedIn](https://www.linkedin.com/in/talluigi) | [GitHub](https://github.com/luigilegion))
 - Graham Troyer-Joy ([LinkedIn](https://www.linkedin.com/in/grahamtroyerjoy) | [GitHub](https://github.com/telegraham))
