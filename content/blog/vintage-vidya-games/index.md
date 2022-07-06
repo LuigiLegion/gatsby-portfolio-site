@@ -6,29 +6,29 @@ description: NES themed e-commerce responsive web app that offers old-school vid
 
 ![Vintage Vidya Games Screenshot](./vintage-vidya-games.png)
 
-### Video Presentation:
+### Video Presentation
 
 Coming soon...
 
-### Deployed Web App:
+### Deployed Web App
 
-https://vintage-vidya-games.herokuapp.com
+<https://vintage-vidya-games.herokuapp.com>
 
-### Source:
+### Source
 
-https://github.com/fiesty-fish/vintageesportsllc
+<https://github.com/fiesty-fish/vintageesportsllc>
 
-### Description:
+### Description
 
 NES themed e-commerce responsive web app that offers old-school video games for sale.
 
 MVP completed using Agile methodologies in 10 days for a group project.
 
-### Tech Stack:
+### Tech Stack
 
 Built using Node.js, Express, PostgreSQL, and Sequelize on the backend, React, Redux, and NES.css on the frontend, and utilizes the Stripe API.
 
-### Dev Team:
+### Dev Team
 
 - Tal Luigi ([LinkedIn](https://www.linkedin.com/in/talluigi) | [GitHub](https://github.com/luigilegion))
 - Michael Ng ([LinkedIn](https://www.linkedin.com/in/michael-m-ng) | [GitHub](https://github.com/xmng))
