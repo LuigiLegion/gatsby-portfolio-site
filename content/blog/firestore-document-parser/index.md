@@ -1,10 +1,10 @@
 ---
-title: StreetPeasy
-date: '2020-07-04T12:34:56.121Z'
-description: Browser extension that retrieves data regarding the description, highlights, and amenities of a given listing on StreetEasy.com, parses it, and checks it against a predetermined checklist.
+title: Firestore Document Parser
+date: '2021-01-31T12:34:56.121Z'
+description: npm package that parses the nested data in a document retrieved from a Firestore database's REST API, flattening it into a standard JavaScript object.
 ---
 
-![StreetPeasy Screenshot](./streetpeasy.png)
+![Firestore Document Parser Screenshot](./firestore-document-parser.png)
 
 ### Video Presentation:
 
@@ -16,17 +16,17 @@ Coming soon...
 
 ### Source:
 
-https://github.com/luigilegion/streetpeasy
+https://github.com/luigilegion/firestore-document-parser
 
 ### Description:
 
-Browser extension that retrieves data regarding the description, highlights, and amenities of a given listing on [StreetEasy.com](https://streeteasy.com), parses it, and checks it against a predetermined checklist.
+npm package that parses the nested data in a document retrieved from a Firestore database's REST API, flattening it into a standard JavaScript object.
 
 MVP completed in a day for a solo project.
 
 ### Tech Stack:
 
-Built using Vanilla JavaScript, HTML, and CSS.
+Built using Vanilla JavaScript.
 
 ### Dev Team:
 
