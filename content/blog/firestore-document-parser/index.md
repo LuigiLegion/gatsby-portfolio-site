@@ -6,28 +6,28 @@ description: npm package that parses the nested data in a document retrieved fro
 
 ![Firestore Document Parser Screenshot](./firestore-document-parser.png)
 
-### Video Presentation:
+### Video Presentation
 
 Coming soon...
 
-### Published Browser Extension:
+### Published Browser Extension
 
 Coming soon...
 
-### Source:
+### Source
 
-https://github.com/luigilegion/firestore-document-parser
+<https://github.com/luigilegion/firestore-document-parser>
 
-### Description:
+### Description
 
 npm package that parses the nested data in a document retrieved from a Firestore database's REST API, flattening it into a standard JavaScript object.
 
 MVP completed in a day for a solo project.
 
-### Tech Stack:
+### Tech Stack
 
 Built using Vanilla JavaScript.
 
-### Dev Team:
+### Dev Team
 
 - Tal Luigi ([LinkedIn](https://www.linkedin.com/in/talluigi) | [GitHub](https://github.com/luigilegion))
