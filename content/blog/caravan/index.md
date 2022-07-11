@@ -4,7 +4,7 @@ date: '2020-06-29T12:34:56.121Z'
 description: Browser extension that allows Amazon.com users to view a summary of a specific product's price history at the click of a button using data from camelcamelcamel.com.
 ---
 
-![Caravan Screenshot](../caravan/caravan.png)
+![Caravan Screenshot](./caravan.png)
 
 ### Video Presentation
 
