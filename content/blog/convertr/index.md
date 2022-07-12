@@ -4,7 +4,7 @@ date: '2019-05-31T12:34:56.121Z'
 description: Native app that allows users to convert temperature, mass, length, and currency units.
 ---
 
-![Convertr Screenshot](../convertr/convertr.png)
+![Convertr Screenshot](./convertr.png)
 
 ### Video Presentation
 
