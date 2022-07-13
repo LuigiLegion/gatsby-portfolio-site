@@ -4,7 +4,7 @@ date: '2019-07-12T12:34:56.121Z'
 description: NES themed web app that gamifies fitness. The app allows users to create avatars based on the workout statistics recorded on their Strava accounts, and use them to battle one another. Strava is a free workout tracking app.
 ---
 
-![RPGym Screenshot](../rpgym/rpgym.png)
+![RPGym Screenshot](./rpgym.png)
 
 ### Video Presentation
 
