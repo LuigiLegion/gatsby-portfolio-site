@@ -4,7 +4,7 @@ date: '2021-01-31T12:34:56.121Z'
 description: npm package that parses the nested data in a document retrieved from a Firestore database's REST API, flattening it into a standard JavaScript object.
 ---
 
-![Firestore Document Parser Screenshot](./firestore-document-parser.png)
+![Firestore Document Parser Screenshot](./screenshot.png)
 
 ### Video Presentation
 
