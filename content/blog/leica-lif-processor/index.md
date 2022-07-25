@@ -4,7 +4,7 @@ date: '2019-09-29T12:34:56.121Z'
 description: ImageJ macro that allows users to take a z-stack of .lif files from a Leica SP8 Conofocal Microscope and transform it into a z-projection (e.g. Min Intensity, Max Intensity) with channel split .tiff files. Users can also subtract background, use a filter (e.g. Sigma, Gaussian), and choose the output file path. After running the macro, a user gets the selected projections in each channel separately with little to no processing on their part.
 ---
 
-![Leica LIF Processor Screenshot](./leica-lif-processor.png)
+![Leica LIF Processor Screenshot](./screenshot.png)
 
 ### Video Presentation
 
