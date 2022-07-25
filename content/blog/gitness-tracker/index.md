@@ -4,7 +4,7 @@ date: '2020-01-14T12:34:56.121Z'
 description: Responsive web app that helps open source project maintainers hold friendly code contribution competitions by allowing them to determine who contributed the most code over a given period of time. Contributions are pulled from GitHub using their GraphQL API and presented in the form of an organization, team, or user leaderboard.
 ---
 
-![Gitness Tracker Screenshot](./gitness-tracker.png)
+![Gitness Tracker Screenshot](./screenshot.png)
 
 ### Video Presentation
 
