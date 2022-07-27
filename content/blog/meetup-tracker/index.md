@@ -4,7 +4,7 @@ date: '2020-03-31T12:34:56.121Z'
 description: Responsive web app that allows users to explore a curated list of upcoming tech meetups in New York City.
 ---
 
-![Meetup Tracker Screenshot](./meetup-tracker.png)
+![Meetup Tracker Screenshot](./screenshot.png)
 
 ### Video Presentation
 
