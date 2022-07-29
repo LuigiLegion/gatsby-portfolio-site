@@ -4,7 +4,7 @@ date: '2019-10-10T12:34:56.121Z'
 description: Educational workshop that goes through the steps of setting up a mock bank web app using React, Redux, and React-Redux.
 ---
 
-![React-Redux Bank Screenshot](./react-redux-bank.png)
+![React-Redux Bank Screenshot](./screenshot.png)
 
 ### Video Presentation
 
