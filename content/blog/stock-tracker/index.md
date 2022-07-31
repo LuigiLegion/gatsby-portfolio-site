@@ -4,7 +4,7 @@ date: '2020-02-29T12:34:56.121Z'
 description: Web app that allows users to buy shares, review their past transactions, and keep track of the performance of their portfolio in real time.
 ---
 
-![Stock Tracker Screenshot](./stock-tracker.png)
+![Stock Tracker Screenshot](./screenshot.png)
 
 ### Video Presentation
 
