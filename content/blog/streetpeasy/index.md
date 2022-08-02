@@ -4,7 +4,7 @@ date: '2020-07-04T12:34:56.121Z'
 description: Browser extension that retrieves data regarding the description, highlights, and amenities of a given listing on StreetEasy.com, parses it, and checks it against a predetermined checklist.
 ---
 
-![StreetPeasy Screenshot](./streetpeasy.png)
+![StreetPeasy Screenshot](./screenshot.png)
 
 ### Video Presentation
 
