@@ -1,10 +1,10 @@
 ---
 title: Yhelper ETL
-date: '2021-01-30T12:34:56.121Z'
+date: '2020-12-31T12:34:56.121Z'
 description: ETL process that extracts DOH NYC restaurant inspection results data using the Socrata Open Data API, transforms it by removing invalid entries and grouping inspections by date under a single restaurant by phone number, and loads it into a Firestore document-based NoSQL database with a built-in REST API.
 ---
 
-![Yhelper ETL Screenshot](./yhelper-etl.png)
+![Yhelper ETL Screenshot](./screenshot.png)
 
 ### Video Presentation
 
