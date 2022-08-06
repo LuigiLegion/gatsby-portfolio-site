@@ -1,10 +1,10 @@
 ---
 title: Yhelper Extension
-date: '2021-02-16T12:34:56.121Z'
+date: '2021-02-15T12:34:56.121Z'
 description: Browser extension that retrieves DOH NYC restaurant inspection results data for a given restaurant on Yelp.com, parses it, and displays it on its business page.
 ---
 
-![Yhelper Extension Screenshot](./yhelper-extension.png)
+![Yhelper Extension Screenshot](./screenshot.png)
 
 ### Video Presentation
 
