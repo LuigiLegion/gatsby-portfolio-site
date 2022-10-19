@@ -1,7 +1,7 @@
 ---
 title: Minyan Tracker
 date: '2019-11-19T12:34:56.121Z'
-description: Responsive web app that allows users to check-in to services at their congregations and share their check-in status with their fellow congregation members in real time.
+description: Responsive web app that helps members of small congregations organize services by allowing them to determine if they can form a minyan for a given service. The app allows users to check-in to services at their congregations and share their check-in status with their fellow congregation members in real time.
 ---
 
 ![Minyan Tracker Screenshot](./screenshot.png)
@@ -20,13 +20,13 @@ Coming soon...
 
 ### Description
 
-Responsive web app that allows users to check-in to services at their congregations and share their check-in status with their fellow congregation members in real time.
+Responsive web app that helps members of small congregations organize services by allowing them to determine if they can form a minyan for a given service. The app allows users to check-in to services at their congregations and share their check-in status with their fellow congregation members in real time.
 
 MVP completed in 4 days for a solo project.
 
 ### Tech Stack
 
-Built using Node.js and Firebase on the backend and React, Redux, and Materialize on the frontend.
+Built using Node.js and Firebase on the backend, and React, Redux, and Materialize.css on the frontend.
 
 ### Dev Team
 
