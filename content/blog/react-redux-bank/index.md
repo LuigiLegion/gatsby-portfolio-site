@@ -22,7 +22,7 @@ Coming soon...
 
 Educational workshop that goes through the steps of setting up a mock bank web app using React, Redux, and React-Redux.
 
-MVP completed in 2 days for a code-along.
+Completed in 2 days for a code-along.
 
 ### Tech Stack
 
