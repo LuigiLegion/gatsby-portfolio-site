@@ -1,7 +1,7 @@
 ---
 title: Star Wars Name Generator
 date: '2019-12-19T12:34:56.121Z'
-description: Responsive web app that allows users to find their very own Star Wars name based on their name in real life. Names are picked out of over 22,000 first names and 10,000 last names from both Canon and Legends by utilizing a set of matching algorithms.
+description: Responsive web app that allows users to create their very own Star Wars name based on any name. Names are generated out of over 22,000 first names and 10,000 last names from both Canon and Legends by utilizing a set of custom string matching algorithms.
 ---
 
 ![Star Wars Name Generator Screenshot](./screenshot.png)
